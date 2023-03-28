@@ -1,6 +1,6 @@
 Survivor-Elite-4compmod-Official
 
-New SEO for compmod, programmed for the L4d2 Group: Sir Please
+New SEO for compmod, created for the L4d2 Group: Sir Please
 
 Programmed by Kent Goninan, known as Ɽǝϻɨ
 

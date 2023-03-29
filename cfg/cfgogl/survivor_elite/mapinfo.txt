@@ -807,8 +807,8 @@
 		{
 			"early tank chaos"
 			{
-				"min"		"10"
-				"max"		"15"
+				"min"		"15"
+				"max"		"20"
 			}
 		}
 	}

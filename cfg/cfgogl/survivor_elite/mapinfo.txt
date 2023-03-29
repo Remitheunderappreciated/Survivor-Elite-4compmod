@@ -773,8 +773,8 @@
 		{
 			"bushy pathway"
 			{
-				"min"		"40"
-				"max"		"60"
+				"min"		"65"
+				"max"		"70"
 			}
 		}
 	}

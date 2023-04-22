@@ -316,3 +316,10 @@ filter:
 {
 	"hammerid" "2042253"
 }
+; --- post event ammo piles
+{
+	"hammerid" "1382363"
+}
+{
+	"hammerid" "1382375"
+}

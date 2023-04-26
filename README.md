@@ -2,10 +2,8 @@ Survivor Elite Overhaul for Compmod
 
 Programmed by Kent Goninan, known as Ɽǝϻɨ
 
-As a long time player of the game Left 4 Dead 2, I've always seeked challenges in order to imporve my abilities.
-After a few years of altering and testing different game configurations, I've concocted the perfect challenge for veteran players.
-Survivor Elite aims to push the players into doing things they would have never considered before. 
-To bring back that fresh sensation to an old game.
+This overhaul is a long time crafted blend of art and competitive practicality. Years of configuration mixing and level design packaged within this repository. 
 
+The goal is to make l4d2 fresh again for veteran players.
 
 This mod is currently unfinished. However, it is in a playable state. 

@@ -6,6 +6,6 @@ This overhaul is a long time crafted blend of art and competitive practicality. 
 
 The goal is to make Left 4 Dead 2 fresh again for veteran players and create a gamemode for players who really like pushing themselves. Teams will have to talk amongst one another in order to address their movement and priorities before exiting the saferoom.
 
-The odds weigh heavily against the survivor team.
+The odds weigh against the survivor team.
 
 This mod is currently unfinished. However, it is in a playable state. 

@@ -1,0 +1,630 @@
+"origin" "-3294.69 -9144.37 409.393"
+"spawnflags" "0"
+"solid" "6"
+"skin" "0"
+"model" "models/w_models/weapons/w_pistol_1911.mdl"
+"count" "4"
+"angles" "30 180 0"
+"classname" "weapon_pistol_spawn"
+"hammerid" "2014430"
+}{
+"origin" "-3288.79 -9150.87 372.563"
+"targetname" "sniper03"
+"spawnflags" "0"
+"solid" "6"
+"skin" "0"
+"model" "models/w_models/weapons/w_shotgun.mdl"
+"count" "5"
+"angles" "-90 270 0"
+"classname" "weapon_sniper_military_spawn"
+"hammerid" "2014428"
+}{
+"origin" "-3296.43 -9151.59 365.853"
+"targetname" "sniper03"
+"spawnflags" "0"
+"solid" "6"
+"skin" "0"
+"model" "models/w_models/weapons/w_shotgun.mdl"
+"count" "5"
+"angles" "-90 270 0"
+"classname" "weapon_shotgun_spas_spawn"
+"hammerid" "2014426"
+}{
+"origin" "-3304.09 -9152.97 373.273"
+"targetname" "rifle03"
+"spawnflags" "0"
+"solid" "6"
+"skin" "0"
+"model" "models/w_models/weapons/w_shotgun.mdl"
+"count" "5"
+"angles" "-90 270 0"
+"classname" "weapon_rifle_spawn"
+"hammerid" "2014424"
+}{
+"origin" "-3311.49 -9152.57 374.033"
+"targetname" "ak03"
+"spawnflags" "0"
+"solid" "6"
+"skin" "0"
+"model" "models/w_models/weapons/w_rifle_ak47.mdl"
+"count" "5"
+"angles" "-90 270 0"
+"classname" "weapon_rifle_ak47_spawn"
+"hammerid" "2014422"
+}{
+"origin" "-3377.5 -9301.62 362"
+"spawnflags" "3"
+"solid" "6"
+"skin" "0"
+"melee_weapon" "any"
+"disableshadows" "0"
+"count" "1"
+"body" "0"
+"angles" "0 11.5 -90"
+"classname" "weapon_melee_spawn"
+"hammerid" "2014406"
+}{
+"origin" "-3468.5 -9268.62 362"
+"spawnflags" "3"
+"solid" "6"
+"skin" "0"
+"melee_weapon" "any"
+"disableshadows" "0"
+"count" "1"
+"body" "0"
+"angles" "0 11.5 -90"
+"classname" "weapon_melee_spawn"
+"hammerid" "2014404"
+}{
+"origin" "-3497.43 -9292.62 362"
+"spawnflags" "3"
+"solid" "6"
+"skin" "0"
+"melee_weapon" "any"
+"disableshadows" "0"
+"count" "1"
+"body" "0"
+"angles" "0 0 -90"
+"classname" "weapon_melee_spawn"
+"hammerid" "2014402"
+}{
+"origin" "-3428 -9167 396"
+"spawnflags" "0"
+"solid" "6"
+"skin" "0"
+"model" "models/props/terror/ammo_stack.mdl"
+"count" "4"
+"angles" "0 271.5 0"
+"classname" "weapon_ammo_spawn"
+"hammerid" "2014400"
+}{
+"origin" "-3389.34 -9173.62 398.5"
+"spawnflags" "2"
+"solid" "6"
+"angles" "84.9601 104.728 66.9538"
+"classname" "weapon_first_aid_kit_spawn"
+"hammerid" "2014398"
+}{
+"origin" "-3384.49 -9156.58 398.5"
+"spawnflags" "2"
+"solid" "6"
+"angles" "84.9601 52.228 66.9538"
+"classname" "weapon_first_aid_kit_spawn"
+"hammerid" "2014396"
+}{
+"origin" "-3377.35 -9172.52 398.5"
+"spawnflags" "2"
+"solid" "6"
+"angles" "84.9601 57.728 66.9538"
+"classname" "weapon_first_aid_kit_spawn"
+"hammerid" "2014394"
+}{
+"origin" "-3373.5 -9155.48 398.5"
+"spawnflags" "2"
+"solid" "6"
+"angles" "84.9601 79.228 66.9538"
+"classname" "weapon_first_aid_kit_spawn"
+"hammerid" "2014392"
+}{
+"origin" "-3978 -7143 394"
+"spawnflags" "3"
+"solid" "6"
+"melee_weapon" "any"
+"count" "1"
+"angles" "0.171057 2.99969 89.5302"
+"classname" "weapon_melee_spawn"
+"hammerid" "2014249"
+}{
+"origin" "-3817 -7822 410"
+"spawnflags" "2"
+"solid" "6"
+"skin" "0"
+"disableshadows" "0"
+"count" "1"
+"body" "0"
+"angles" "82.5 67.5 0"
+"classname" "weapon_pipe_bomb_spawn"
+"hammerid" "2014231"
+}{
+"origin" "-3837.01 -7818.04 413"
+"spawnflags" "2"
+"solid" "6"
+"skin" "0"
+"disableshadows" "0"
+"count" "1"
+"body" "0"
+"angles" "-1 67.5 0"
+"classname" "weapon_molotov_spawn"
+"hammerid" "2014229"
+}{
+"origin" "-3850.01 -7818.07 410"
+"spawnflags" "2"
+"solid" "6"
+"skin" "0"
+"disableshadows" "0"
+"count" "1"
+"body" "0"
+"angles" "-89 67.5 0"
+"classname" "weapon_vomitjar_spawn"
+"hammerid" "2014227"
+}{
+"origin" "-2066.14 -1993.57 -264.171"
+"weapon_selection" "tier2_any"
+"spawnflags" "16"
+"solid" "6"
+"count" "5"
+"angles" "-4.10754 241.039 -86.2288"
+"classname" "weapon_spawn"
+"hammerid" "2013418"
+}{
+"origin" "-2045 -1993.58 -265.209"
+"weapon_selection" "tier2_shotgun"
+"spawnflags" "16"
+"solid" "6"
+"count" "5"
+"angles" "-8.04378 276.34 -90.2017"
+"classname" "weapon_spawn"
+"hammerid" "2013416"
+}{
+"origin" "-3616 -8016 576"
+"spawnflags" "3"
+"item5" "1"
+"item4" "1"
+"item3" "1"
+"item18" "0"
+"item17" "0"
+"item16" "1"
+"item13" "1"
+"item12" "1"
+"item11" "1"
+"item1" "0"
+"angles" "0 0 0"
+"classname" "weapon_item_spawn"
+"hammerid" "2012273"
+}{
+"origin" "-3617 -7979 576"
+"spawnflags" "3"
+"item5" "1"
+"item4" "1"
+"item3" "1"
+"item18" "0"
+"item17" "0"
+"item16" "1"
+"item13" "1"
+"item12" "1"
+"item11" "1"
+"item1" "0"
+"angles" "0 0 0"
+"classname" "weapon_item_spawn"
+"hammerid" "2012271"
+}{
+"origin" "-3611 -7953 576"
+"spawnflags" "3"
+"item5" "1"
+"item4" "1"
+"item3" "1"
+"item18" "0"
+"item17" "0"
+"item16" "1"
+"item13" "1"
+"item12" "1"
+"item11" "1"
+"item1" "0"
+"angles" "0 0 0"
+"classname" "weapon_item_spawn"
+"hammerid" "2012269"
+}{
+"origin" "-3632.29 -8437.99 382"
+"spawnflags" "3"
+"item5" "0"
+"item4" "0"
+"item3" "0"
+"item11" "0"
+"item1" "1"
+"angles" "0 0 0"
+"classname" "weapon_item_spawn"
+"hammerid" "2012267"
+}{
+"origin" "-3643.25 -7973.25 540"
+"spawnflags" "3"
+"item5" "1"
+"item4" "0"
+"item3" "1"
+"item18" "0"
+"item11" "0"
+"item1" "0"
+"angles" "0 0 0"
+"classname" "weapon_item_spawn"
+"hammerid" "2012265"
+}{
+"origin" "-2054 -1997 -246"
+"spawnflags" "1"
+"item5" "0"
+"item4" "1"
+"item3" "0"
+"item11" "1"
+"item1" "0"
+"angles" "0 0 0"
+"classname" "weapon_item_spawn"
+"hammerid" "2010048"
+}{
+"origin" "-2055 -2014 -247"
+"spawnflags" "1"
+"item5" "0"
+"item4" "1"
+"item3" "0"
+"item11" "1"
+"item1" "0"
+"angles" "0 0 0"
+"classname" "weapon_item_spawn"
+"hammerid" "2010046"
+}{
+"origin" "-1801 -1985 -250.925"
+"spawnflags" "3"
+"item5" "0"
+"item4" "0"
+"item3" "0"
+"item11" "0"
+"item1" "1"
+"angles" "0 0 0"
+"classname" "weapon_item_spawn"
+"hammerid" "2010044"
+}{
+"origin" "-3929 -7162 366"
+"spawnflags" "3"
+"solid" "6"
+"melee_weapon" "any"
+"count" "1"
+"angles" "0.171057 2.99969 89.5302"
+"classname" "weapon_melee_spawn"
+"hammerid" "2335349"
+}{
+"origin" "-755.421 1870.65 -350"
+"spawnflags" "3"
+"item5" "0"
+"item4" "0"
+"item3" "0"
+"item11" "0"
+"item1" "1"
+"angles" "0 0 0"
+"classname" "weapon_item_spawn"
+"hammerid" "2438432"
+}{
+"origin" "-756 1902 -350"
+"spawnflags" "3"
+"item5" "1"
+"item4" "0"
+"item3" "1"
+"item11" "0"
+"item1" "0"
+"angles" "0 0 0"
+"classname" "weapon_item_spawn"
+"hammerid" "2438436"
+}{
+"origin" "-754 1963 -350"
+"spawnflags" "3"
+"item5" "1"
+"item4" "0"
+"item3" "0"
+"item13" "1"
+"item11" "0"
+"item1" "0"
+"angles" "0 0 0"
+"classname" "weapon_item_spawn"
+"hammerid" "2438440"
+}{
+"origin" "-756 1925 -350"
+"spawnflags" "3"
+"item5" "1"
+"item4" "0"
+"item3" "1"
+"item11" "0"
+"item1" "0"
+"angles" "0 0 0"
+"classname" "weapon_item_spawn"
+"hammerid" "2438486"
+}{
+"origin" "-1278.99 3820.4 -109"
+"spawnflags" "3"
+"item8" "0"
+"item7" "0"
+"item6" "0"
+"item5" "0"
+"item4" "0"
+"item3" "0"
+"item2" "0"
+"item18" "0"
+"item17" "0"
+"item16" "0"
+"item13" "0"
+"item12" "0"
+"item11" "0"
+"item1" "1"
+"angles" "0 0 0"
+"classname" "weapon_item_spawn"
+"hammerid" "2469309"
+}{
+"origin" "-1247.21 3798.88 -109"
+"spawnflags" "3"
+"item8" "0"
+"item7" "0"
+"item6" "0"
+"item5" "0"
+"item4" "1"
+"item3" "0"
+"item2" "0"
+"item18" "0"
+"item17" "0"
+"item16" "0"
+"item13" "0"
+"item12" "1"
+"item11" "1"
+"item1" "0"
+"angles" "0 0 0"
+"classname" "weapon_item_spawn"
+"hammerid" "2469324"
+}{
+"origin" "-1213.26 3778.07 -109"
+"spawnflags" "3"
+"item8" "0"
+"item7" "0"
+"item6" "0"
+"item5" "1"
+"item4" "0"
+"item3" "1"
+"item2" "0"
+"item18" "0"
+"item17" "0"
+"item16" "0"
+"item13" "1"
+"item12" "0"
+"item11" "0"
+"item1" "0"
+"angles" "0 0 0"
+"classname" "weapon_item_spawn"
+"hammerid" "2469326"
+}{
+"origin" "-4160 -8072 404"
+"weapon_selection" "tier2_any"
+"spawnflags" "18"
+"solid" "6"
+"count" "1"
+"angles" "0 37.949 -90"
+"classname" "weapon_spawn"
+"hammerid" "2720044"
+}{
+"origin" "-4158 -7928 409"
+"spawnflags" "2"
+"solid" "6"
+"count" "1"
+"angles" "0.0513016 120 -90"
+"classname" "weapon_autoshotgun_spawn"
+"hammerid" "2735324"
+}{
+"origin" "-4104 -8004 405.687"
+"spawnflags" "2"
+"solid" "6"
+"count" "1"
+"angles" "0.0513016 120 -90"
+"classname" "weapon_sniper_military_spawn"
+"hammerid" "2735328"
+}{
+"origin" "-4124 -7932 497"
+"spawnflags" "3"
+"melee_weapon" "any"
+"item5" "0"
+"item4" "0"
+"item3" "0"
+"item17" "0"
+"item16" "1"
+"item11" "0"
+"item1" "0"
+"angles" "0 0 0"
+"classname" "weapon_item_spawn"
+"hammerid" "2750956"
+}{
+"origin" "-727 2242 -105"
+"weapon_selection" "tier2_any"
+"spawnflags" "18"
+"spawn_without_director" "0"
+"solid" "6"
+"skin" "0"
+"disableshadows" "0"
+"count" "1"
+"body" "0"
+"angles" "0 0 89"
+"classname" "weapon_spawn"
+"hammerid" "2766791"
+}{
+"origin" "-708 2285 -105"
+"weapon_selection" "tier2_any"
+"spawnflags" "18"
+"spawn_without_director" "0"
+"solid" "6"
+"skin" "0"
+"disableshadows" "0"
+"count" "1"
+"body" "0"
+"angles" "0 337.5 89"
+"classname" "weapon_spawn"
+"hammerid" "2766818"
+}{
+"origin" "-1830 -2005 -241.507"
+"spawnflags" "1"
+"item5" "0"
+"item4" "1"
+"item3" "0"
+"item2" "0"
+"item12" "0"
+"item11" "1"
+"item1" "0"
+"angles" "0 0 0"
+"classname" "weapon_item_spawn"
+"hammerid" "3121743"
+}{
+"origin" "-1743 -1954 -239.507"
+"spawnflags" "3"
+"item5" "0"
+"item4" "0"
+"item3" "0"
+"item2" "1"
+"item12" "1"
+"item11" "0"
+"item1" "0"
+"angles" "0 0 0"
+"classname" "weapon_item_spawn"
+"hammerid" "3121745"
+}{
+"origin" "-1386 5518 -109"
+"spawnflags" "0"
+"item5" "0"
+"item4" "1"
+"item3" "0"
+"item11" "0"
+"item1" "0"
+"angles" "0 0 0"
+"classname" "weapon_item_spawn"
+"hammerid" "3578881"
+}{
+"origin" "-1443 4850 190.91"
+"spawnflags" "257"
+"skin" "0"
+"shadowcastdist" "0"
+"rendermode" "0"
+"renderfx" "0"
+"rendercolor" "255 255 255"
+"renderamt" "255"
+"pressuredelay" "0"
+"physdamagescale" "0.1"
+"PerformanceMode" "0"
+"nodamageforces" "0"
+"model" "models/props_junk/propanecanister001a.mdl"
+"minhealthdmg" "0"
+"massScale" "0"
+"inertiaScale" "1.0"
+"glowcolor" "0 0 0"
+"forcetoenablemotion" "0"
+"fadescale" "1"
+"fademindist" "-1"
+"fademaxdist" "0"
+"ExplodeRadius" "0"
+"ExplodeDamage" "0"
+"disableshadows" "1"
+"disablereceiveshadows" "0"
+"Damagetype" "0"
+"damagetoenablemotion" "0"
+"BreakableType" "0"
+"body" "0"
+"angles" "-0.351553 210.015 -0.527335"
+"classname" "prop_physics"
+"hammerid" "1278000"
+}{
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

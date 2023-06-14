@@ -1,4 +1,4 @@
-Survivor Elite Overhaul for Compmod
+Survivor Elite Overhaul for Compmod with Stripper
 
 Programmed by Kent Goninan, known as Ɽǝϻɨ
 

@@ -4,4 +4,4 @@ Configuration: 		Ɽǝϻɨ
 Level Design: 		Ɽǝϻɨ
 (Some remnants of zonemod's level design still remain)
 Technical consultant: 	Sir Please
-Testing: Skeleton, Bear, Infested Soul, immortalhalo, As21
+Testing: Skeleton, Bear, Infested Soul, immortalhalo

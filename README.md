@@ -2,10 +2,10 @@ Survivor Elite Overhaul for Compmod with Stripper
 
 Programmed by Kent Goninan, known as Ɽǝϻɨ
 
-This overhaul is a long time crafted blend of art and competitive practicality. Years of configuration mixing and level design is packaged within this repository. This is not meant to be zonemod, compete with zonemod, or replace zonemod. It's intended to be it's own competitive format that is based far from the vanille game. 
+Teams will have to talk amongst one another in order to address their movement and priorities before exiting the saferoom. Resources are limited, so use them thoughtfully and strategically. If you need ammo, let the team know, someone will know where a supply is and if not maybe they will take the time to scavenge with you. 
 
-The goal is to make Left 4 Dead 2 fresh again for veteran players and create a gamemode for players who really like pushing themselves. Teams will have to talk amongst one another in order to address their movement and priorities before exiting the saferoom.
-
-The odds weigh against the survivor team.
+Survivor Elite is built around a mixture of realism mode and advanced difficulty versus.
 
 This mod is currently unfinished. However, it is in a playable state. 
+
+Development time 1.5 years.

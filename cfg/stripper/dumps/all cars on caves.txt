@@ -1,0 +1,63 @@
+all cars on caves
+
+
+{
+	"hammerid" "1659784"
+}
+{
+	"hammerid" "1659788"
+}
+{
+	"hammerid" "1659851"
+}
+{
+	"hammerid" "1659855"
+}
+{
+	"hammerid" "1659918"
+}
+{
+	"hammerid" "1659922"
+}
+{
+	"hammerid" "1659985"
+}
+{
+	"hammerid" "1659989"
+}
+{
+	"hammerid" "1660052"
+}
+{
+	"hammerid" "1660056"
+}
+{
+	"hammerid" "1660119"
+}
+{
+	"hammerid" "1660123"
+}
+{
+	"hammerid" "1660186"
+}
+{
+	"hammerid" "1660190"
+}
+{
+	"hammerid" "1660253"
+}
+{
+	"hammerid" "1660257"
+}
+{
+	"hammerid" "1660320"
+}
+{
+	"hammerid" "1660324"
+}
+{
+	"hammerid" "1660387"
+}
+{
+	"hammerid" "1660391"
+}

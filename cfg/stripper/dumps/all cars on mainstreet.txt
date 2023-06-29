@@ -1,0 +1,90 @@
+all cars on mainstreet
+
+
+{
+	"hammerid" "5997592"
+}
+{
+	"hammerid" "5997596"
+}
+{
+	"hammerid" "5997458"
+}
+{
+	"hammerid" "5997462"
+}
+{
+	"hammerid" "4049269"
+}
+{
+	"hammerid" "5997525"
+}
+{
+	"hammerid" "5997529"
+}
+{
+	"hammerid" "5997123"
+}
+{
+	"hammerid" "5997127"
+}
+{
+	"hammerid" "1180937"
+}
+{
+	"hammerid" "5997391"
+}
+{
+	"hammerid" "5997395"
+}
+{
+	"hammerid" "5997190"
+}
+{
+	"hammerid" "5997194"
+}
+{
+	"hammerid" "5997257"
+}
+{
+	"hammerid" "5997261"
+}
+{
+	"hammerid" "5997324"
+}
+{
+	"hammerid" "5997328"
+}
+{
+	"hammerid" "5996989"
+}
+{
+	"hammerid" "5996993"
+}
+{
+	"hammerid" "5996922"
+}
+{
+	"hammerid" "5996926"
+}
+{
+	"hammerid" "5996855"
+}
+{
+	"hammerid" "5996859"
+}
+{
+	"hammerid" "5997056"
+}
+{
+	"hammerid" "5997060"
+}
+{
+	"hammerid" "4199225"
+}
+{
+	"hammerid" "4199221"
+}
+{
+	"hammerid" "944695"
+}

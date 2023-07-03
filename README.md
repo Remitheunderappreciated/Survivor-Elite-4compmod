@@ -6,6 +6,6 @@ Survivor Elite is built around a mixture of realism mode and advanced difficulty
 
 Resources are limited, so use them thoughtfully and strategically. Let your team know when you need ammo, because you may not be the only one who needs it. Team's will have to scavenge for new weapons and ammo depending on how well they planned and exicuted their offense.  
 
-This mod is in it's 1.0 release state. Enjoy and have fun. 
+This mod is in it's 1.0 release state. 
 
 Development time 1 year, 7 months.

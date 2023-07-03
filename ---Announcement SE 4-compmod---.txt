@@ -1,0 +1,800 @@
+---Announcement SEO 4-compmod---
+
+
+Survivor Elite Overhaul 4 compmod is the new version of SEO. completely different from the Workshop version. This version has been balanced for competitive versus play and the world has been dramatically altered in comparison. 
+
+The devlopment of this mod spans years and has been tested by many people within the community in secret. The secrecy of the project was paramount to the relase because everything has been altered in a way that you would have to play it many times in order to learn the maps, weapons, and ammmo spawns. This is to generate conversation between the team before exiting the saferoom. Players who have the most experience with the mod will be relied upon to inform and lead the team. 
+
+I don't expect everyone to be amazing at Survivor Elite at first. In fact, I expect you to die a few times before you understand. 
+
+More About SEO 4 compmod:
+
+"Survivor Elite is built around a mixture of realism mode and advanced difficulty versus. The maps are dramatically altered with many curveballs, new routes, and new events. Teams will have to talk amongst one another in order to address their movement and priorities before exiting the saferoom.
+
+Resources are limited, so use them thoughtfully and strategically. Let your team know when you need ammo, because you may not be the only one who needs it. Team's will have to scavenge for new weapons and ammo depending on how well they planned and exicuted their offense."
+
+
+What Players are allowed to know upon release?
+
+All information that is allowed to be public upon release listed below...
+
+
+Configuration changes:
+
+
+	/////////////
+	//survivors//
+	/////////////
+
+
+r_flashlightfov 120 
+(bigger flashlight)
+
+bullet_ff_through_walls 1 
+(friendly fire through walls)
+
+sv_disable_glow_survivors 1 
+(removes survivor glow)
+
+survivor_ff_tolerance 0 
+(lowers tolerance from all player survivor interactions including throwables and interactive props)
+
+survivor_revive_duration 4 
+(lowers pickup by one second from default)
+
+survivor_revive_health 50 
+(when picked up, you have 50 temp health)
+
+survivor_max_incapacitated_count 4 
+(you can go down 4 times before you are black and white)
+
+survivor_limp_walk_speed 88
+(slight increase in pace when slow)
+
+survivor_limp_health 30
+(When you get to 30 health, you become slow)
+
+survivor_incap_health 150
+(When downed you have 150 health, half the default setting)
+
+survivor_ledge_grab_health 75 
+(when hanging you have 75 hp, a quarter from the default)
+
+survivor_incap_hopeless_decay_rate 15
+(when hanging you loose 15 hp a ting)
+
+survivor_incap_decay_rate 5
+(when downed your health drops 5 points a ting)
+
+survivor_incapacitated_cycle_time 0.08 
+(survivors may shoot their weapons at the same pace they can shoot them while standing)
+
+survivor_incapacitated_accuracy_penalty 0.2
+(you are more accurate when downed)
+
+
+survivor_allow_crawling 1
+survivor_crawl_speed 75
+(you can move while downed but only at a speed of 75)
+
+
+
+	/////////
+	//items//
+	/////////
+
+
+
+pain_pills_health_value 75
+pain_pills_decay_rate .30
+(you get 75 hp from pills but you lose the health slightly faster)
+
+
+first_aid_heal_percent 1.00
+first_aid_kit_use_duration 4
+(first aid kit fully heals survivors and can be done a second faster)
+
+
+vomitjar_duration_survivor 20
+vomitjar_radius_survivors 110
+(bile bombs can hit other survivors)
+
+
+	///////////
+	//bonuses//
+	///////////
+
+
+
+vs_defib_penalty 50
+vs_survival_bonus 0
+vs_tiebreak_bonus 10
+
+
+	////////
+	//fire//
+	////////
+
+fuel_barrel_damage_amount 50
+gascan_fire_damage 150
+incendiary_ammo_burn_damage 150
+inferno_damage 150
+inferno_max_range 750
+inferno_per_flame_spawn_duration 3
+
+(fire is set to expert damage and grows wider)
+
+
+	/////////
+	//world//
+	/////////
+
+
+
+(fog that was adjusted to be as far as a car alarm could trigger)
+
+fog_maxdensity 1
+fog_override 1
+fog_enable 1
+fog_start 0
+fog_end 775
+fog_startskybox -10000
+fog_endskybox -10000
+fog_enableskybox 1
+z_fog_spawn 1
+
+
+	/////////
+	//ghost//
+	/////////
+
+
+(infected can spawn relatively close to survivors)
+
+z_scrimmage_creep_delay 0
+z_scrimmage_creep_rate 100
+z_spawn_safety_range 200
+z_ghost_los_expected_progress 2000
+
+
+
+	////////////
+	//infected//
+	////////////
+
+
+---common---
+
+
+z_health 150
+z_speed: 280
+z_attack_interval 0.5
+(common has three times as much health, runs, and attacks slightly faster)
+
+z_mob_recharge_rate 0.005
+z_mob_population_density 0.008
+versus_wandering_zombie_density .05
+(standing horde is thicker and respawns faster)
+
+
+z_common_limit 40
+z_mob_spawn_size 30
+z_mob_spawn_min_size 25
+z_mob_spawn_max_size 40
+z_mob_max_pending 30
+z_bile_mob_size 30
+z_mega_mob_size 40
+
+
+
+--spitter--
+
+z_spitter_health 100
+
+---boomer---
+
+z_exploding_health 100
+z_exploding_splat 50
+(boomer will automatically explode when it lands on the ground after falling from a hieght of 50)
+
+---jockey---
+
+z_jockey_health 400
+z_jockey_ride_damage 7
+
+---charger---
+
+z_charger_health 600
+z_charger_pound_dmg 25
+z_charge_duration  1.5
+(Charger's charge length is shortened by one second))
+
+---hunter---
+
+z_versus_hunter_limit 2
+z_hunter_health 500
+z_pounce_damage 7
+z_pounce_stumble_radius 160
+z_pounce_damage_interrupt 150
+z_max_stagger_duration 0.9
+
+---smoker---
+
+z_gas_health 250
+tongue_health 35
+tongue_choke_damage_amount 10
+tongue_drag_damage_amount 4
+tongue_miss_delay 3
+tongue_hit_delay 15
+tongue_dropping_to_ground_time 0.5
+tongue_los_forgiveness_time 1.5
+tongue_no_progress_choke_early_delay 1.0
+
+
+---tank---
+
+
+vs_tank_damage 20
+(tanks punch attack)
+
+tank_burn_duration 50
+(when lit, tank only has 50 seconds to live)
+
+versus_tank_chance 1.0
+versus_tank_chance_intro 1.0
+versus_tank_chance_finale 1.0
+versus_tank_flow_team_variation 0.0
+versus_boss_flow_min 0.1
+versus_boss_flow_max 0.8
+versus_boss_flow_min_intro 0.05
+versus_boss_flow_min_finale 0.05
+versus_boss_padding_min 0.1
+versus_boss_padding_max 0.2
+(static tank spawns)
+
+versus_special_respawn_interval 17
+(17 second respawn timer for infected...20 second max)
+
+
+---witch---
+
+z_witch_threat_normal_range 200
+z_witch_threat_hostile_range 500
+z_witch_max_threat_time 3
+
+(there is no witch in this versus mod, but the cvars still exist in case players agree upon the addition of witches to SEO)
+
+
+
+
+
+Weapon Stats:
+
+
+
+	//////////////
+	//ammo pools//
+	//////////////
+
+
+
+ammo_shotgun_max 116
+ammo_autoshotgun_max 150
+ammo_smg_max 750
+ammo_assaultrifle_max 460
+ammo_huntingrifle_max 200
+ammo_sniperrifle_max 160
+ammo_grenadelauncher_max 20
+
+
+	///////////
+	//weapons//
+	///////////
+
+
+
+melee_combo_reset_time .75
+(reset time between performing a full combo with melee)
+
+grenadelauncher_damage 750
+grenadelauncher_ff_scale 50
+grenadelauncher_ff_scale_self 100
+grenadelauncher_radius_kill 200
+(grenade launcher will wipe all, use with caution)
+
+
+mounted_gun_cooldown_time 10
+mounted_gun_overheat_time 12
+mounted_gun_overheat_penalty_time 10
+mounted_gun_rate_of_fire 12
+z_minigun_rate_of_fire 3000
+z_minigun_damage_rate 70000
+
+(most mounted weaponry has been removed from the 1.0 release)
+
+
+	---pistol--- 
+
+
+verticalpunch 2.0
+spreadpershot 1
+maxspread 30
+spreaddecay 5
+minduckspread 0.4
+minstandspread 1.5
+minairspread 3.0
+maxmovespread 3.0
+reloadduration 1.5
+speed 285
+penpower 70
+penmaxdist 0
+damage 25
+range 2500
+rangemod 0.75
+cycletime 0.15
+clipsize 15
+
+
+
+
+	---magnum---
+
+
+
+
+verticalpunch 5.0
+spreadpershot 2
+maxspread 30
+spreaddecay 5
+minduckspread 0.3
+minstandspread 1.25
+minairspread 3.0
+maxmovespread 3.0
+reloadduration 1.5
+speed 285
+penpower 75
+penmaxdist 0
+damage 50
+range 2000
+rangemod 0.75
+cycletime 0.15
+clipsize 10
+
+
+
+
+	---smg---
+
+
+ 
+
+verticalpunch 0.8
+spreadpershot 0.40
+maxspread 30
+spreaddecay 5
+minduckspread 0.5
+minstandspread 0.9
+minairspread 1.5
+maxmovespread 2.45
+damage 15
+range 2300
+rangemod 0.84
+reloadduration 1.75
+tier 0
+speed 285
+bucket 0
+
+
+
+
+	---smg_silenced---
+
+
+
+verticalpunch 1.226
+spreadpershot 0.20
+maxspread 24.52
+spreaddecay 17.13
+minduckspread 0.59
+minstandspread 0.74
+minairspread 1.32
+maxmovespread 2.65
+reloadduration 1.75
+speed 260
+penpower 41
+charpenmaxdist 3184
+damage 25
+range 10499
+rangemod 0.986391
+cycletime 0.075
+clipsize 30
+
+
+
+	---smg_mp5---
+ 
+
+
+
+verticalpunch 0.95
+spreadpershot 0.5
+maxspread 19
+spreaddecay 21.05
+minduckspread 0.46
+minstandspread 0.57
+minairspread 1.03
+maxmovespread 2.05
+reloadduration 1.75
+speed 260
+penpower 28
+penmaxdist 0
+damage 25
+range 13123
+rangemod 0.980726
+cycletime 0.075
+clipsize 30
+
+
+
+	---pumpshotgun--- 
+
+
+
+
+verticalpunch 2.485
+spreadpershot 1.50
+maxspread 10.64
+spreaddecay 6.84
+minduckspread 1.19
+minstandspread 1.0
+minairspread 2.68
+maxmovespread 5.37
+reloadduration 0.100
+speed 250
+penlayers 3
+penpower 42
+penmaxdist 0
+charpenmaxdist 848
+damage 30
+bullets 7
+range 2625
+rangemod 0.800
+cycletime 0.25
+clipsize 8
+
+
+
+
+	---shotgun_chrome--- 
+
+
+
+
+verticalpunch 1.962
+spreadpershot 1.09
+maxspread 18.35
+spreaddecay 13.25
+minduckspread 0.86
+minstandspread 1.08
+minairspread 1.94
+maxmovespread 3.88
+scatterpitch 3.06
+scatteryaw 7.56
+reloadduration 0.400
+speed 250
+penlayers 6
+penpower 50
+penmaxdist 0
+charpenmaxdist 944
+damage 25
+bullets 15
+range 5459
+rangemod 0.938502
+cycletime 0.5
+clipsize 8
+
+
+
+	---autoshotgun---- 
+
+
+
+verticalpunch 2.460
+spreadpershot 1.37
+maxspread 17.03
+spreaddecay 5.08
+minduckspread 1.08
+minstandspread 1.35
+minairspread 2.44
+maxmovementspread 4.87
+scatterpitch 2.85
+scatteryaw 4.71
+reloadduration 0.440
+speed 250
+penlayers 2
+penpower 48
+penmaxdist 0
+charpenmaxdist 1200
+damage 30
+bullets 10
+range 3800
+rangemod 0.953206
+cycletime 0.8
+clipsize 10
+
+
+
+
+	---shotgun_spas--- 
+
+
+
+verticalpunch 2.115
+spreadpershot 0.53
+maxspread 35.70
+spreaddecay 9.22
+minduckspread 1.02
+minstandspread 1.27
+minairspread 2.28
+maxmovementspread 4.57
+scatterpitch 1.72
+scatteryaw 6.35
+reloadduration 0.198
+speed 250
+penlayers 2
+penpower 48
+penmaxdist 0
+charpenmaxdist 816
+damage 30
+bullets 10
+range 2625
+rangemod 0.934270
+cycletime 0.8
+clipsize 10
+
+
+
+
+	---rifle--- 
+
+
+
+verticalpunch 1.200
+spreadpershot 0.35
+maxspread 25
+spreaddecay 5
+minduckspread 0.005
+minstandspread 0.0123046634674542
+minairspread 1.5
+maxmovespread 3
+reloadduration 1.75
+speed 245
+penlayers 4
+penpower 50
+penmaxdist 0
+damage 25
+range 188976.3776
+rangemod 0.97
+cycletime 0.0857142857142857
+clipsize 50
+
+
+	---rifle_ak47--- 
+
+
+
+verticalpunch 1.179
+spreadpershot 0.29
+maxspread 26.52
+spreaddecay 11.88
+minduckspread 0.57
+minstandspread 0.71
+minairspread 1.27
+maxmovespread 2.55
+speed 240
+penlayers 2
+penpower 38
+penmaxdist 0
+charpenmaxdist 5920
+damage 40
+range 31496
+rangemod 0.989057
+cycletime 0.100
+clipsize 30
+
+
+
+	---rifle_desert--- 
+
+
+
+verticalpunch 1.217
+spreadpershot 0.20
+maxspread 19.02
+spreaddecay 9.45
+minduckspread 0.58
+minstandspread 0.73
+minairspread 1.31
+maxmovespread 2.63
+reloadduration 1.75
+speed 240
+penlayers 4
+penpower 33
+penmaxdist 0
+charpenmaxdist 6880
+damage 40
+range 36745
+rangemod 0.992414
+cycletime 0.0960
+clipsize 50
+
+
+
+
+	---rifle_sg552--- 
+
+
+
+verticalpunch 1.370
+spreadpershot 0.23
+maxspread 23.97
+spreaddecay 8.40
+minduckspread 0.66
+minstandspread 0.82
+minairspread 1.48
+maxmovespread 2.95
+reloadduration 1.75
+speed 245
+penlayers 4
+penpower 40
+penmaxdist 0
+charpenmaxdist 4976
+damage 35
+range 20997
+rangemod 0.987909
+cycletime 0.0857
+clipsize 30
+
+
+
+	---hunting_rifle---
+ 
+
+
+verticalpunch 2.8
+spreadpershot 1
+maxspread 20
+spreaddecay 8
+minduckspread 0
+minstandspread 0.1
+minairspread 1.5
+maxmovespread 2.5
+reloadduration 1.75
+speed 220
+penlayers 5
+penpower 75
+penmaxdist 0
+charpenmaxdist 8192
+damage 75
+bullets 1
+range 6000
+rangemod 0.70
+cycletime 0.15
+clipsize 10
+
+
+
+	---sniper_military--- 
+
+
+
+verticalpunch 2.8
+spreadpershot 1
+maxspread 20
+spreaddecay 8
+minduckspread 0
+minstandspread 0.1
+minairspread 1.5
+maxmovespread 2.5
+reloadduration 1.75
+speed 210
+penlayers 7
+penpower 70
+penmaxdist 0
+charpenmaxdist 8192
+damage 100
+bullets 1
+range 7000
+rangemod 0.65
+cycletime 0.12
+clipsize 15
+
+
+
+	---sniper_scout---
+ 
+
+
+verticalpunch 3.5
+spreadpershot 1
+maxspread 15
+spreaddecay 8
+minduckspread 0
+minstandspread 0.1
+minairspread 1.5
+maxmovespread 3
+reloadduration 1.75
+speed 240
+penlayers 7
+penpower 80
+penmaxdist 0
+charpenmaxdist 8192
+damage 150
+bullets 1
+range 10000
+rangemod 1.0
+cycletime 0.8
+clipsize 10
+
+
+	---sniper_awp---
+
+
+verticalpunch 7
+spreadpershot 1
+maxspread 15
+spreaddecay 8
+minduckspread 0
+minstandspread 0.1
+minairspread 1.5
+maxmovespread 3
+speed 200
+penlayers 10
+penpower 85
+penmaxdistance 0
+charpenmaxdist 8192
+damage 350
+bullets 1
+range 10000
+rangemod 1.0
+cycletime 0.9
+clip_size 10
+
+
+	--rifle_m60--
+
+
+verticalpunch 1
+spreadpershot 1
+maxspread 30
+spreaddecay 7
+minduckspread 0.5
+minstandspread 1
+minairspread 3
+maxmovespread 6
+reloadduration 2.00
+speed 210
+penlayers 7
+penpower 50
+penmaxdist 0
+damage 40
+range 3000
+rangemod 0.97
+cycletime 0.08
+clipsize 500
+
+
+	---grenade_launcher---
+
+
+cycletime 0.5
+clipsize 2
+
+
+	---chainsaw---
+
+
+ 
+clipsize 60
+
+

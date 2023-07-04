@@ -1,3 +1,6 @@
+Cant get the func_button to work. If you figure it out, I'll give you a cookie. 
+
+
 ; --- left door
 {
 "origin" "773 -1468 0.5"

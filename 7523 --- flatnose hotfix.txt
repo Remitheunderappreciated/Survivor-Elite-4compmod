@@ -1,0 +1,5 @@
+7/5/23 --- flatnose hotfix
+
+All flatnose models have been replaced with longnose because of L.O.S. obstruction failure. 
+
+If you are using 1.0 from before the date 7/5/23, I suggest you update your SEO4COMPMOD folder. 

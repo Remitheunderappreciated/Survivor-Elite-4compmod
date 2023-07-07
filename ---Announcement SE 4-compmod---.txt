@@ -29,9 +29,6 @@ Configuration changes:
 	/////////////
 
 
-r_flashlightfov 120 
-(bigger flashlight)
-
 bullet_ff_through_walls 1 
 (friendly fire through walls)
 
@@ -127,23 +124,6 @@ inferno_per_flame_spawn_duration 3
 (fire is set to expert damage and grows wider)
 
 
-	/////////
-	//world//
-	/////////
-
-
-
-(fog that was adjusted to be as far as a car alarm could trigger)
-
-fog_maxdensity 1
-fog_override 1
-fog_enable 1
-fog_start 0
-fog_end 775
-fog_startskybox -10000
-fog_endskybox -10000
-fog_enableskybox 1
-z_fog_spawn 1
 
 
 	/////////

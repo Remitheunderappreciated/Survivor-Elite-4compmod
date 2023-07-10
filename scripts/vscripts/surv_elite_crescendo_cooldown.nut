@@ -14,11 +14,11 @@ DirectorOptions <-
 	RelaxMinInterval = 20
 	RelaxMaxInterval = 35
 	RelaxMaxFlowTravel = 2000
-	SmokerLimit = 2
+	SmokerLimit = 1
 	HunterLimit = 2
-	ChargerLimit = 3
+	ChargerLimit = 1
 	SpecialRespawnInterval = 20.0
-	ZombieSpawnRange = 2000
+	ZombieSpawnRange = 850
 	NumReservedWanderers = 15
 }
 

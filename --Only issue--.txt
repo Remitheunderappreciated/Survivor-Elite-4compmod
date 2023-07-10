@@ -1,0 +1,9 @@
+--Only issue--
+
+Theres a studdering problem when standing/walking on every prop in the first section of the first chapter of cold stream (alpine creek).
+
+solution - remove all props from that first section before the rope bridge to the second section.
+
+"I don't think this will be a huge problem, but in case it is annoying for other players, at least I know the solution."
+
+All props after the rope bridge do not have this studdering issues.

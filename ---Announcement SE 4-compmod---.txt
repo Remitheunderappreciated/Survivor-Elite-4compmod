@@ -66,7 +66,7 @@ survivor_incap_decay_rate 5
 (when downed your health drops 5 points a ting)
 
 survivor_incapacitated_cycle_time 0.08 
-(survivors may shoot their weapons at the same pace they can shoot them while standing)
+(survivors may shoot their weapons while incapped at the same pace they can shoot them while standing)
 
 survivor_incapacitated_accuracy_penalty 0.2
 (you are more accurate when downed)

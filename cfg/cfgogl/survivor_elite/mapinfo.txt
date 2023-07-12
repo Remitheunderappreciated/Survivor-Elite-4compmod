@@ -397,7 +397,7 @@
 		{
 			"street fight"
 			{
-				"min"		"60"
+				"min"		"65"
 				"max"		"70"
 			}
 		}

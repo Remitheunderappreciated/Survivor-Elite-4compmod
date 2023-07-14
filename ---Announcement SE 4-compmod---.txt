@@ -362,7 +362,7 @@ damage 15
 range 2300
 rangemod 0.84
 reloadduration 1.75
-tier 0
+tier 1
 speed 285
 bucket 0
 

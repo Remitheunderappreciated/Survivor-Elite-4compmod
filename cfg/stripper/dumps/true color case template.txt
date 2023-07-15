@@ -1,0 +1,66 @@
+; --- common color
+{
+"angles" ""
+"origin" ""
+"targetname" "*vehicle targetname here*-case_color"
+"Case04" "4"
+"Case03" "3"
+"Case02" "2"
+"Case01" "1"
+"classname" "logic_case"
+"OnCase01" "*vehicle targetname here*Color255 255 2550-1"
+"OnCase02" "Color0 0 00-1"
+"OnCase03" "Color128 0 00-1"
+"OnCase04" "Color0 0 1600-1"
+}
+{
+"angles" ""
+"origin" ""
+"spawnflags" "1"
+"classname" "logic_auto"
+"OnMapSpawn" "*vehicle targetname here*-case_colorPickRandom0-1"
+}
+; --- work color
+{
+"angles" ""
+"origin" ""
+"targetname" "*vehicle targetname here*-case_color"
+"Case04" "4"
+"Case03" "3"
+"Case02" "2"
+"Case01" "1"
+"classname" "logic_case"
+"OnCase01" "*vehicle targetname here*Color151 75 00-1"
+"OnCase02" "Color0 64 00-1"
+"OnCase03" "Color128 128 640-1"
+"OnCase04" "Color255 128 00-1"
+}
+{
+"angles" ""
+"origin" ""
+"spawnflags" "1"
+"classname" "logic_auto"
+"OnMapSpawn" "*vehicle targetname here*-case_colorPickRandom0-1"
+}
+; --- unique color
+{
+"angles" ""
+"origin" ""
+"targetname" "*vehicle targetname here*-case_color"
+"Case04" "4"
+"Case03" "3"
+"Case02" "2"
+"Case01" "1"
+"classname" "logic_case"
+"OnCase01" "*vehicle targetname here*Color255 255 00-1"
+"OnCase02" "Color0 255 2550-1"
+"OnCase03" "Color128 255 00-1"
+"OnCase04" "Color128 128 2550-1"
+}
+{
+"angles" ""
+"origin" ""
+"spawnflags" "1"
+"classname" "logic_auto"
+"OnMapSpawn" "*vehicle targetname here*-case_colorPickRandom0-1"
+}

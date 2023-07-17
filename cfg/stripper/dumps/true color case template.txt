@@ -1,7 +1,5 @@
 ; --- common color
 {
-"angles" ""
-"origin" ""
 "targetname" "*vehicle targetname here*-case_color"
 "Case04" "4"
 "Case03" "3"
@@ -14,16 +12,12 @@
 "OnCase04" "Color0 0 1600-1"
 }
 {
-"angles" ""
-"origin" ""
 "spawnflags" "1"
 "classname" "logic_auto"
 "OnMapSpawn" "*vehicle targetname here*-case_colorPickRandom0-1"
 }
 ; --- work color
 {
-"angles" ""
-"origin" ""
 "targetname" "*vehicle targetname here*-case_color"
 "Case04" "4"
 "Case03" "3"
@@ -36,16 +30,12 @@
 "OnCase04" "Color255 128 00-1"
 }
 {
-"angles" ""
-"origin" ""
 "spawnflags" "1"
 "classname" "logic_auto"
 "OnMapSpawn" "*vehicle targetname here*-case_colorPickRandom0-1"
 }
 ; --- unique color
 {
-"angles" ""
-"origin" ""
 "targetname" "*vehicle targetname here*-case_color"
 "Case04" "4"
 "Case03" "3"
@@ -58,8 +48,6 @@
 "OnCase04" "Color128 128 2550-1"
 }
 {
-"angles" ""
-"origin" ""
 "spawnflags" "1"
 "classname" "logic_auto"
 "OnMapSpawn" "*vehicle targetname here*-case_colorPickRandom0-1"

@@ -2,6 +2,5 @@
 
 Configuration: 		Ɽǝϻɨ
 Level Design: 		Ɽǝϻɨ
-(Some remnants of zonemod's level design still remain)
+(Some remnants of zonemod's level additions still remain)
 Technical consultant: 	Sir Please
-Map Testing: Skeleton, Bear, Infested Soul, immortalhalo

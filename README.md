@@ -6,6 +6,4 @@ Survivor Elite is built around a mixture of realism mode and advanced difficulty
 
 Resources are limited, so use them thoughtfully and strategically. Let your team know when you need ammo, because you may not be the only one who needs it. Team's will have to scavenge for new weapons and ammo depending on how well they planned and exicuted their offense.  
 
-(Development time 1 year, 7 months)
-
 ///check announcement txt file for additional information\\\

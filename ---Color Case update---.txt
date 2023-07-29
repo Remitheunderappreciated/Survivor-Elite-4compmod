@@ -1,0 +1,14 @@
+---Color Case update---
+
+All vehicle props (including car alarms) now have logic programmed into their render colors; allowing them to be a random color everytime you play. 
+
+Chapter edits:
+
+Highway - end parking lot
+streets - event area
+plankcountry - town cleaning
+hardrain - fog volume block bug
+barge - "jungle gym" cleaning
+the caves - 3 new leaves props added to the end of the chapter
+ranchouse - new hittable
+greenhouse - new plywood added to the roof in begginning (per request)

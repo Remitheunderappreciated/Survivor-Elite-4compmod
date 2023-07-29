@@ -12,3 +12,5 @@ barge - "jungle gym" cleaning
 the caves - 3 new leaves props added to the end of the chapter
 ranchouse - new hittable
 greenhouse - new plywood added to the roof in begginning (per request)
+
+You should reacquire all map files from the stripper folder, almost all of them have been updated this month.

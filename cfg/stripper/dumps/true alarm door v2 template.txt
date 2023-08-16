@@ -127,6 +127,7 @@ add:
 "StartDisabled" "0"
 "spawnflags" "1"
 "classname" "logic_relay"
+"OnTrigger" "directorBeginScriptsurv_elite_onslaught1-1"
 "OnTrigger" "@directorBeginScriptsurv_elite_onslaught1-1"
 "OnTrigger" "Level_sound_alarmPlaySound0-1"
 "OnTrigger" "nav_blocker_emergency_doorUnblockNav0-1"

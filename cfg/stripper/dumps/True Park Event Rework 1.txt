@@ -1,0 +1,108 @@
+In this Park Chapter event rework version, the ceda doors and information regarding the previous event have been removed. Once survivors get to the tower in the bus station and flip the switch to open the bus station dooes, an alarm will trigger and won't stop until the bus station doors have opened.
+
+This template is fully filled out, so you can copy and paste to your map cfg file for stripper without needing to fill in any blanks. (place the filter section at the bottum of your cfg file)
+
+-----------------------------------------------------------
+
+
+
+
+; --- remove the horde blocker
+modify:
+{
+	match:
+	{
+		"targetname" "finale_cleanse_entrance_door"
+	}
+	delete:
+	{
+		"OnClose" "directorBeginScriptdirector_quiet.nut01"
+	}
+}
+; ---park event rework
+modify:
+{
+	match:
+	{
+		"targetname" "finale_alarm_stop_button"
+	}
+	insert:
+	{
+		"OnPressed" "unique_event_reworkTrigger0-1"
+	}
+}
+add:
+; --- new event logic
+{
+"origin" "-8164 -5864 -3"
+"StartDisabled" "0"
+"spawnflags" "0"
+"classname" "logic_relay"
+"targetname" "unique_event_rework"
+"OnTrigger" "unique_event_alarmPlaySound0-1"
+"OnTrigger" "unique_event_alarmStopSound20-1"
+"OnTrigger" "directorBeginScriptsurv_elite_onslaught1-1"
+"OnTrigger" "directorBeginScriptsurv_elite_crescendo_cooldown20-1"
+"OnTrigger" "@directorBeginScriptsurv_elite_onslaught1-1"
+"OnTrigger" "@directorBeginScriptsurv_elite_crescendo_cooldown20-1"
+}
+; --- sound
+{
+"angles" "0 0 0"
+"origin" "-8194 -6396 -124"
+"volstart" "5"
+"targetname" "unique_event_alarm"
+"spinup" "0"
+"spindown" "0"
+"spawnflags" "17"
+"radius" "125000"
+"preset" "0"
+"pitchstart" "100"
+"pitch" "100"
+"message" "Objects.emergency_alarm_loop"
+"lfotype" "0"
+"lforate" "0"
+"lfomodvol" "0"
+"lfomodpitch" "0"
+"health" "10"
+"fadeoutsecs" "0"
+"fadeinsecs" "0"
+"cspinup" "0"
+"classname" "ambient_generic"
+}
+filter:
+; --- event
+{
+	"hammerid" "1602062"
+}
+{
+	"hammerid" "1239243"
+}
+{
+	"hammerid" "1602039"
+}
+{
+	"hammerid" "2336284"
+}
+{
+	"hammerid" "1833357"
+}
+{
+	"hammerid" "1654134"
+}
+{
+	"hammerid" "1833276"
+}
+; --- event info proxies
+{
+	"hammerid" "456481"
+}
+{
+	"hammerid" "456483"
+}
+{
+	"hammerid" "452733"
+}
+{
+	"hammerid" "453280"
+}

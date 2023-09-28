@@ -1,4 +1,5 @@
-In this Park Chapter event rework version, the ceda doors and information regarding the previous event have been removed. Once survivors get to the tower in the bus station and flip the switch to open the bus station dooes, an alarm will trigger and won't stop until the bus station doors have opened.
+In this Park Chapter event rework version, the ceda doors and information regarding the previous event have been removed. 
+Once survivors get to the tower in the bus station and flip the switch to open the bus station dooes, an alarm will trigger and won't stop until the bus station doors have opened.
 
 This template is fully filled out, so you can copy and paste to your map cfg file for stripper without needing to fill in any blanks. (place the filter section at the bottum of your cfg file)
 

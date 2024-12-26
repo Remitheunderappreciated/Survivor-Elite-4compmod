@@ -150,7 +150,7 @@ z_ghost_los_expected_progress 2000
 
 z_speed: 280
 z_attack_interval 0.5
-(common has three times as much health, runs, and attacks slightly faster)
+(common runs and attacks slightly faster)
 
 z_mob_recharge_rate 0.005
 z_mob_population_density 0.008

@@ -2,7 +2,7 @@ Survivor Elite Overhaul for Compmod with Stripper
 
 Programmed by Kay Goninan, known as Ɽǝϻɨ
 
-(From what I hear I have put the information in wrong on the compmod configuration files. Someday in the near future I will fix the configuration settings so they will work with compmod. However, the stripper files work perfectly fine and can be used independently from the compmod configuration files.) 
+(From what I hear I have put the information in wrong on the cfgogl configuration files. Someday in the near future I will fix the configuration settings so they will work with compmod. However, the stripper files work perfectly fine and can be used independently from the compmod configuration files.) 
 
 [Survivor Elite] is built around a mixture of realism mode and advanced difficulty versus. The maps are dramatically altered with many new additions and events. Teams will have to talk amongst one another in order to address their movement and priorities before exiting the saferoom. 
 

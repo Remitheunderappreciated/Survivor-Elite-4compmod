@@ -4,6 +4,8 @@ Programmed by Kay Goninan, known as Ɽǝϻɨ
 
 (Configuration Files have been Updated and made current. Should be working just fine now) 
 
+***map update coming soon***
+
 [Survivor Elite] is built around a mixture of realism mode and advanced difficulty versus. The maps are dramatically altered with many new additions and events. Teams will have to talk amongst one another in order to address their movement and priorities before exiting the saferoom. 
 
 Resources are limited, so use them thoughtfully and strategically. Let your team know when you need ammo, because you may not be the only one who needs it. Team's will have to scavenge for new weapons and ammo depending on how well they planned and exicuted their offense.  

@@ -2,8 +2,6 @@ Survivor Elite Overhaul for Compmod with Stripper
 
 Programmed by Kay Goninan, known as Ɽǝϻɨ
 
-(Configuration Files have been Updated and made current. Should be working just fine now) 
-
 ***Dedicated Servers Coming Soon...***
 
 [Survivor Elite] is built around a mixture of realism mode and advanced difficulty versus. The maps are dramatically altered with many new additions and events. Teams will have to talk amongst one another in order to address their movement and priorities before exiting the saferoom. 

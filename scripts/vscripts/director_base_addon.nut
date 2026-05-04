@@ -96,8 +96,6 @@ IncludeScript( "gas_station_explosion", getroottable() );
 
 IncludeScript( "bridge_destruction", getroottable() );
 
-IncludeScript("bile_survivors", getroottable());
-
 IncludeScript("grenade_shove", getroottable());
 
 IncludeScript("meleedrop")
@@ -107,8 +105,6 @@ IncludeScript("itemExFunc")
 IncludeScript("seohorde");
 
 IncludeScript("custom_tank_health");
-
-IncludeScript("stats_printer")
 
 IncludeScript("survivorshoving")
 

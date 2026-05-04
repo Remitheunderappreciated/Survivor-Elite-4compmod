@@ -1,0 +1,1 @@
+EntFire( "worldspawn", "RunScriptFile", "survivorshoving" );

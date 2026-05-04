@@ -12,8 +12,8 @@
 		{
 			"bottom of elevator"
 			{
-				"min"		"75"
-				"max"		"80"
+				"min"		"80"
+				"max"		"81"
 			}
 		}
 	}
@@ -29,8 +29,8 @@
 		{
 			"dumpster chokepoint"
 			{
-				"min"		"40"
-				"max"		"50"
+				"min"		"50"
+				"max"		"60"
 			}
 		}
 	}
@@ -200,8 +200,8 @@
 		{
 			"before airplane crash"
 			{
-				"min"		"15"
-				"max"		"20"
+				"min"		"20"
+				"max"		"25"
 			}
 		}
 	}
@@ -637,8 +637,8 @@
 		{
 			"early tank chaos"
 			{
-				"min"		"15"
-				"max"		"20"
+				"min"		"20"
+				"max"		"25"
 			}
 		}
 	}
@@ -654,7 +654,7 @@
 		{
 			"death charge"
 			{
-				"min"		"60"
+				"min"		"70"
 				"max"		"80"
 			}
 		}
@@ -722,8 +722,8 @@
 		{
 			"early tank chaos"
 			{
-				"min"		"15"
-				"max"		"20"
+				"min"		"20"
+				"max"		"25"
 			}
 		}
 	}
@@ -756,8 +756,8 @@
 		{
 			"trainyard"
 			{
-				"min"		"65"
-				"max"		"70"
+				"min"		"70"
+				"max"		"75"
 			}
 		}
 	}
@@ -773,8 +773,8 @@
 		{
 			"bushy pathway"
 			{
-				"min"		"65"
-				"max"		"70"
+				"min"		"80"
+				"max"		"85"
 			}
 		}
 	}
@@ -807,8 +807,8 @@
 		{
 			"early tank chaos"
 			{
-				"min"		"10"
-				"max"		"15"
+				"min"		"20"
+				"max"		"25"
 			}
 		}
 	}
@@ -875,8 +875,8 @@
 		{
 			"early tank chaos"
 			{
-				"min"		"30"
-				"max"		"35"
+				"min"		"20"
+				"max"		"25"
 			}
 		}
 	}
@@ -892,8 +892,8 @@
 		{
 			"mechanic/junkyard"
 			{
-				"min"		"40"
-				"max"		"60"
+				"min"		"20"
+				"max"		"25"
 			}
 		}
 	}

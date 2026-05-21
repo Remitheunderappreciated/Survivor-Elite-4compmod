@@ -1,4 +1,4 @@
-Survivor Elite Overhaul for Compmod with Stripper
+Survivor Elite Overhaul for Compmod with Stripper (Also known as Remi's L4D Remix)
 
 Programmed by Kay Goninan, known as Ɽǝϻɨ
 

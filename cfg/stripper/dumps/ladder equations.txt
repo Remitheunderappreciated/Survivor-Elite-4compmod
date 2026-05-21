@@ -1,9 +1,16 @@
+//--------//
+/WORKTABLE/
+//--------//
 
---------------
+
+
+//--------//
+/DEADCENTER/
+//STREETS///
+//--------//
 
 model 5 
 
-angles 0 0 0
 
 where you want it
 (-1026 4870 422)
@@ -27,7 +34,6 @@ x	x    x
 
 model 88
 
-angles 0 90 0
 
 where you want it
 -1279 5348 335

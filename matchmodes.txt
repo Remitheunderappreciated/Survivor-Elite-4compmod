@@ -1,0 +1,10 @@
+"MatchModes"
+{
+	"SEO Configs"
+	{
+		"remis remix"
+		{
+			"name" "survivor_elite"
+		}
+	}
+}

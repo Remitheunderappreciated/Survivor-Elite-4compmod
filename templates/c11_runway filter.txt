@@ -1,0 +1,201 @@
+; ####################  Filter  ######################
+; =====================================================
+; ==                    Item                 	     ==
+; ==                   Removal  			     ==
+; =====================================================
+filter:
+{
+	"hammerid" "4178838"
+}
+{
+	"hammerid" "4260524"
+}
+{
+	"hammerid" "4274974"
+}
+{
+	"hammerid" "4365972"
+}
+{
+	"hammerid" "4365974"
+}
+{
+	"hammerid" "4365976"
+}
+{
+	"hammerid" "4365978"
+}
+{
+	"hammerid" "4365986"
+}
+{
+	"hammerid" "4365988"
+}
+{
+	"hammerid" "4365998"
+}
+{
+	"hammerid" "4366000"
+}
+{
+	"hammerid" "4376039"
+}
+{
+	"hammerid" "4376041"
+}
+{
+	"hammerid" "4376051"
+}
+{
+	"hammerid" "4376053"
+}
+{
+	"hammerid" "4376594"
+}
+{
+	"hammerid" "4376596"
+}
+{
+	"hammerid" "4376652"
+}
+{
+	"hammerid" "4376676"
+}
+{
+	"hammerid" "4378760"
+}
+{
+	"hammerid" "4378762"
+}
+{
+	"hammerid" "4379046"
+}
+{
+	"hammerid" "4379048"
+}
+{
+	"hammerid" "4379091"
+}
+{
+	"hammerid" "4379093"
+}
+{
+	"hammerid" "4381290"
+}
+{
+	"hammerid" "4381330"
+}
+{
+	"hammerid" "4381338"
+}
+{
+	"hammerid" "4381344"
+}
+{
+	"hammerid" "4383454"
+}
+{
+	"hammerid" "4410893"
+}
+{
+	"hammerid" "4410897"
+}
+{
+	"hammerid" "4088368"
+}
+{
+	"hammerid" "4372630"
+}
+{
+	"hammerid" "4372704"
+}
+{
+	"hammerid" "4372712"
+}
+{
+	"hammerid" "4376099"
+}
+{
+	"hammerid" "4376115"
+}
+{
+	"hammerid" "4288696"
+}
+{
+	"hammerid" "4288704"
+}
+{
+	"hammerid" "4288772"
+}
+{
+	"hammerid" "4288776"
+}
+{
+	"hammerid" "4288780"
+}
+{
+	"hammerid" "4288784"
+}
+{
+	"hammerid" "3503987"
+}
+{
+	"hammerid" "3503989"
+}
+{
+	"hammerid" "3503993"
+}
+{
+	"hammerid" "3503995"
+}
+{
+	"hammerid" "3503997"
+}
+{
+	"hammerid" "3503998"
+}
+{
+	"hammerid" "3503999"
+}
+{
+	"hammerid" "3504001"
+}
+{
+	"hammerid" "3504003"
+}
+{
+	"hammerid" "3411297"
+}
+{
+	"hammerid" "3411295"
+}
+{
+	"hammerid" "3411293"
+}
+{
+	"hammerid" "3411309"
+}
+{
+	"hammerid" "4366045"
+}
+{
+	"hammerid" "4366049"
+}
+{
+	"hammerid" "4370356"
+}
+{
+	"hammerid" "4381282"
+}
+{
+	"hammerid" "4381352"
+}
+{
+	"hammerid" "4381356"
+}
+{
+	"hammerid" "4381360"
+}
+{
+	"hammerid" "4381364"
+}

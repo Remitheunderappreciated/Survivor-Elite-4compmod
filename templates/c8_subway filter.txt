@@ -1,0 +1,699 @@
+; ####################  Filter  ######################
+; =====================================================
+; ==                    Item                 	     ==
+; ==                   Removal  			     ==
+; =====================================================
+filter:
+{
+	"hammerid" "8927599"
+}
+{
+	"hammerid" "3653342"
+}
+{
+	"hammerid" "6518939"
+}
+{
+	"hammerid" "7132207"
+}
+{
+	"hammerid" "7133926"
+}
+{
+	"hammerid" "7441876"
+}
+{
+	"hammerid" "7441878"
+}
+{
+	"hammerid" "7441884"
+}
+{
+	"hammerid" "7441886"
+}
+{
+	"hammerid" "7442066"
+}
+{
+	"hammerid" "7442068"
+}
+{
+	"hammerid" "7442070"
+}
+{
+	"hammerid" "7442084"
+}
+{
+	"hammerid" "7442086"
+}
+{
+	"hammerid" "7442088"
+}
+{
+	"hammerid" "7442090"
+}
+{
+	"hammerid" "7442220"
+}
+{
+	"hammerid" "7958977"
+}
+{
+	"hammerid" "7958979"
+}
+{
+	"hammerid" "7958981"
+}
+{
+	"hammerid" "7958985"
+}
+{
+	"hammerid" "7958987"
+}
+{
+	"hammerid" "7958989"
+}
+{
+	"hammerid" "7958991"
+}
+{
+	"hammerid" "7958993"
+}
+{
+	"hammerid" "7958995"
+}
+{
+	"hammerid" "7958997"
+}
+{
+	"hammerid" "7958999"
+}
+{
+	"hammerid" "7959001"
+}
+{
+	"hammerid" "7959039"
+}
+{
+	"hammerid" "7959041"
+}
+{
+	"hammerid" "7959043"
+}
+{
+	"hammerid" "7959055"
+}
+{
+	"hammerid" "7959057"
+}
+{
+	"hammerid" "7959169"
+}
+{
+	"hammerid" "7959171"
+}
+{
+	"hammerid" "7959177"
+}
+{
+	"hammerid" "7959179"
+}
+{
+	"hammerid" "7959181"
+}
+{
+	"hammerid" "7959193"
+}
+{
+	"hammerid" "8058842"
+}
+{
+	"hammerid" "8058859"
+}
+{
+	"hammerid" "8058885"
+}
+{
+	"hammerid" "8058913"
+}
+{
+	"hammerid" "8059072"
+}
+{
+	"hammerid" "8059080"
+}
+{
+	"hammerid" "8061650"
+}
+{
+	"hammerid" "8061656"
+}
+{
+	"hammerid" "8061658"
+}
+{
+	"hammerid" "8061948"
+}
+{
+	"hammerid" "8061954"
+}
+{
+	"hammerid" "8061956"
+}
+{
+	"hammerid" "8062252"
+}
+{
+	"hammerid" "8062254"
+}
+{
+	"hammerid" "8062256"
+}
+{
+	"hammerid" "8062806"
+}
+{
+	"hammerid" "8145290"
+}
+{
+	"hammerid" "8145292"
+}
+{
+	"hammerid" "8145322"
+}
+{
+	"hammerid" "8145324"
+}
+{
+	"hammerid" "8145332"
+}
+{
+	"hammerid" "8145334"
+}
+{
+	"hammerid" "8145366"
+}
+{
+	"hammerid" "8145368"
+}
+{
+	"hammerid" "8145376"
+}
+{
+	"hammerid" "8145378"
+}
+{
+	"hammerid" "8145389"
+}
+{
+	"hammerid" "8145391"
+}
+{
+	"hammerid" "8145401"
+}
+{
+	"hammerid" "8145403"
+}
+{
+	"hammerid" "8145415"
+}
+{
+	"hammerid" "8145417"
+}
+{
+	"hammerid" "8145431"
+}
+{
+	"hammerid" "8145433"
+}
+{
+	"hammerid" "8145445"
+}
+{
+	"hammerid" "8145447"
+}
+{
+	"hammerid" "8145581"
+}
+{
+	"hammerid" "8145583"
+}
+{
+	"hammerid" "8145593"
+}
+{
+	"hammerid" "8145601"
+}
+{
+	"hammerid" "8145649"
+}
+{
+	"hammerid" "8145651"
+}
+{
+	"hammerid" "8145733"
+}
+{
+	"hammerid" "8145739"
+}
+{
+	"hammerid" "8145745"
+}
+{
+	"hammerid" "8145751"
+}
+{
+	"hammerid" "8145825"
+}
+{
+	"hammerid" "8145831"
+}
+{
+	"hammerid" "8145837"
+}
+{
+	"hammerid" "8146111"
+}
+{
+	"hammerid" "8146119"
+}
+{
+	"hammerid" "8146169"
+}
+{
+	"hammerid" "8484438"
+}
+{
+	"hammerid" "8487539"
+}
+{
+	"hammerid" "8762890"
+}
+{
+	"hammerid" "8763014"
+}
+{
+	"hammerid" "8763026"
+}
+{
+	"hammerid" "8763106"
+}
+{
+	"hammerid" "9304303"
+}
+{
+	"hammerid" "9304301"
+}
+{
+	"hammerid" "9304299"
+}
+{
+	"hammerid" "9304297"
+}
+{
+	"hammerid" "9304295"
+}
+{
+	"hammerid" "9304293"
+}
+{
+	"hammerid" "9304291"
+}
+{
+	"hammerid" "9404426"
+}
+{
+	"hammerid" "9404434"
+}
+{
+	"hammerid" "9404438"
+}
+{
+	"hammerid" "9404446"
+}
+{
+	"hammerid" "9404456"
+}
+{
+	"hammerid" "9404479"
+}
+{
+	"hammerid" "9404514"
+}
+{
+	"hammerid" "9420390"
+}
+{
+	"hammerid" "9452512"
+}
+{
+	"hammerid" "9452518"
+}
+{
+	"hammerid" "9452520"
+}
+{
+	"hammerid" "9452522"
+}
+{
+	"hammerid" "9452528"
+}
+{
+	"hammerid" "9452536"
+}
+{
+	"hammerid" "9452546"
+}
+{
+	"hammerid" "9452554"
+}
+{
+	"hammerid" "9452556"
+}
+{
+	"hammerid" "9452558"
+}
+{
+	"hammerid" "9452564"
+}
+{
+	"hammerid" "9452566"
+}
+{
+	"hammerid" "9468973"
+}
+{
+	"hammerid" "9468975"
+}
+{
+	"hammerid" "9468977"
+}
+{
+	"hammerid" "9468979"
+}
+{
+	"hammerid" "9468981"
+}
+{
+	"hammerid" "9485035"
+}
+{
+	"hammerid" "9485037"
+}
+{
+	"hammerid" "9485039"
+}
+{
+	"hammerid" "9485186"
+}
+{
+	"hammerid" "9485196"
+}
+{
+	"hammerid" "9485274"
+}
+{
+	"hammerid" "9485276"
+}
+{
+	"hammerid" "9485333"
+}
+{
+	"hammerid" "9485364"
+}
+{
+	"hammerid" "9485419"
+}
+{
+	"hammerid" "9485466"
+}
+{
+	"hammerid" "9485482"
+}
+{
+	"hammerid" "9485508"
+}
+{
+	"hammerid" "9485510"
+}
+{
+	"hammerid" "9485512"
+}
+{
+	"hammerid" "9485514"
+}
+{
+	"hammerid" "9485566"
+}
+{
+	"hammerid" "9485568"
+}
+{
+	"hammerid" "9485570"
+}
+{
+	"hammerid" "9485572"
+}
+{
+	"hammerid" "9485604"
+}
+{
+	"hammerid" "9485614"
+}
+{
+	"hammerid" "9485636"
+}
+{
+	"hammerid" "9485638"
+}
+{
+	"hammerid" "9485640"
+}
+{
+	"hammerid" "9485642"
+}
+{
+	"hammerid" "9485666"
+}
+{
+	"hammerid" "9485684"
+}
+{
+	"hammerid" "9485708"
+}
+{
+	"hammerid" "9485732"
+}
+{
+	"hammerid" "9485754"
+}
+{
+	"hammerid" "9501796"
+}
+{
+	"hammerid" "9501834"
+}
+{
+	"hammerid" "9501836"
+}
+{
+	"hammerid" "9501846"
+}
+{
+	"hammerid" "9501856"
+}
+{
+	"hammerid" "9501868"
+}
+{
+	"hammerid" "9501874"
+}
+{
+	"hammerid" "9501882"
+}
+{
+	"hammerid" "9501906"
+}
+{
+	"hammerid" "9501916"
+}
+{
+	"hammerid" "9501922"
+}
+{
+	"hammerid" "9501926"
+}
+{
+	"hammerid" "9501928"
+}
+{
+	"hammerid" "9501940"
+}
+{
+	"hammerid" "9534116"
+}
+{
+	"hammerid" "9550188"
+}
+{
+	"hammerid" "9550194"
+}
+{
+	"hammerid" "9550200"
+}
+{
+	"hammerid" "9550210"
+}
+{
+	"hammerid" "9550238"
+}
+{
+	"hammerid" "9550250"
+}
+{
+	"hammerid" "9550256"
+}
+{
+	"hammerid" "9550258"
+}
+{
+	"hammerid" "9550262"
+}
+{
+	"hammerid" "9550264"
+}
+{
+	"hammerid" "9550284"
+}
+{
+	"hammerid" "9550286"
+}
+{
+	"hammerid" "9550288"
+}
+{
+	"hammerid" "9550338"
+}
+{
+	"hammerid" "9550340"
+}
+{
+	"hammerid" "9550342"
+}
+{
+	"hammerid" "9550344"
+}
+{
+	"hammerid" "9550346"
+}
+{
+	"hammerid" "9566432"
+}
+{
+	"hammerid" "9566440"
+}
+{
+	"hammerid" "9566442"
+}
+{
+	"hammerid" "9566452"
+}
+{
+	"hammerid" "9566454"
+}
+{
+	"hammerid" "9566468"
+}
+{
+	"hammerid" "9566494"
+}
+{
+	"hammerid" "9566496"
+}
+{
+	"hammerid" "9566498"
+}
+{
+	"hammerid" "9566518"
+}
+{
+	"hammerid" "9566526"
+}
+{
+	"hammerid" "9566528"
+}
+{
+	"hammerid" "9566530"
+}
+{
+	"hammerid" "9566542"
+}
+{
+	"hammerid" "9566547"
+}
+{
+	"hammerid" "9566551"
+}
+{
+	"hammerid" "9566557"
+}
+{
+	"hammerid" "9566582"
+}
+{
+	"hammerid" "9598789"
+}
+{
+	"hammerid" "9598835"
+}
+{
+	"hammerid" "9614935"
+}
+{
+	"hammerid" "9631131"
+}
+{
+	"hammerid" "9631141"
+}
+{
+	"hammerid" "9631155"
+}
+{
+	"hammerid" "9631225"
+}
+{
+	"hammerid" "9631235"
+}
+{
+	"hammerid" "9631251"
+}
+{
+	"hammerid" "9631259"
+}
+{
+	"hammerid" "9631267"
+}
+{
+	"hammerid" "9631285"
+}
+{
+	"hammerid" "9631358"
+}
+{
+	"hammerid" "9631370"
+}
+{
+	"hammerid" "9631394"
+}
+{
+	"hammerid" "9663615"
+}
+{
+	"hammerid" "9663617"
+}
+{
+	"hammerid" "7348959"
+}
+{
+	"hammerid" "7341318"
+}

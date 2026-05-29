@@ -1,0 +1,60 @@
+barge explosion barrels 
+
+
+{
+	"hammerid" "2016331"
+}
+{
+	"hammerid" "2016335"
+}
+{
+	"hammerid" "2016457"
+}
+{
+	"hammerid" "2016461"
+}
+{
+	"hammerid" "2016513"
+}
+{
+	"hammerid" "2016517"
+}
+{
+	"hammerid" "2016573"
+}
+{
+	"hammerid" "2016613"
+}
+{
+	"hammerid" "2016637"
+}
+{
+	"hammerid" "2016669"
+}
+{
+	"hammerid" "2016745"
+}
+{
+	"hammerid" "2016797"
+}
+{
+	"hammerid" "2016801"
+}
+{
+	"hammerid" "2016865"
+}
+{
+	"hammerid" "2016869"
+}
+{
+	"hammerid" "2016908"
+}
+{
+	"hammerid" "2016928"
+}
+{
+	"hammerid" "2016932"
+}
+{
+	"hammerid" "2016936"
+}

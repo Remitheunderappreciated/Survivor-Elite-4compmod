@@ -1,0 +1,64 @@
+all sacrifice explosion barrels
+
+
+
+{
+	"hammerid" "2862521"
+}
+{
+	"hammerid" "2862525"
+}
+{
+	"hammerid" "2862541"
+}
+{
+	"hammerid" "2862549"
+}
+{
+	"hammerid" "2862553"
+}
+{
+	"hammerid" "2862573"
+}
+{
+	"hammerid" "2862577"
+}
+{
+	"hammerid" "2862987"
+}
+{
+	"hammerid" "2862991"
+}
+{
+	"hammerid" "2863043"
+}
+{
+	"hammerid" "2863047"
+}
+{
+	"hammerid" "2863123"
+}
+{
+	"hammerid" "2873151"
+}
+{
+	"hammerid" "2873243"
+}
+{
+	"hammerid" "2873247"
+}
+{
+	"hammerid" "2873411"
+}
+{
+	"hammerid" "3026763"
+}
+{
+	"hammerid" "3026791"
+}
+{
+	"hammerid" "3026815"
+}
+{
+	"hammerid" "3026847"
+}

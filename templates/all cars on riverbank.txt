@@ -1,0 +1,163 @@
+; ----all cars
+{
+	"hammerid" "1095742"
+}
+{
+	"hammerid" "1095746"
+}
+{
+	"hammerid" "1095608"
+}
+{
+	"hammerid" "1095612"
+}
+{
+	"hammerid" "1095675"
+}
+{
+	"hammerid" "1095679"
+}
+{
+	"hammerid" "1028182"
+}
+{
+	"hammerid" "1028186"
+}
+{
+	"hammerid" "1028115"
+}
+{
+	"hammerid" "1028119"
+}
+{
+	"hammerid" "1028316"
+}
+{
+	"hammerid" "1028320"
+}
+{
+	"hammerid" "1028249"
+}
+{
+	"hammerid" "1028253"
+}
+{
+	"hammerid" "1022212"
+}
+{
+	"hammerid" "1022216"
+}
+{
+	"hammerid" "1006594"
+}
+{
+	"hammerid" "1006603"
+}
+{
+	"hammerid" "1007511"
+}
+{
+	"hammerid" "993404"
+}
+{
+	"hammerid" "993413"
+}
+{
+	"hammerid" "994321"
+}
+{
+	"hammerid" "1004818"
+}
+{
+	"hammerid" "1004827"
+}
+{
+	"hammerid" "1005735"
+}
+{
+	"hammerid" "1029121"
+}
+{
+	"hammerid" "1029125"
+}
+{
+	"hammerid" "986300"
+}
+{
+	"hammerid" "986309"
+}
+{
+	"hammerid" "987217"
+}
+{
+	"hammerid" "988076"
+}
+{
+	"hammerid" "988085"
+}
+{
+	"hammerid" "988993"
+}
+{
+	"hammerid" "989852"
+}
+{
+	"hammerid" "989861"
+}
+{
+	"hammerid" "990769"
+}
+{
+	"hammerid" "1029188"
+}
+{
+	"hammerid" "1029192"
+}
+{
+	"hammerid" "1029255"
+}
+{
+	"hammerid" "1029259"
+}
+{
+	"hammerid" "1003042"
+}
+{
+	"hammerid" "1003051"
+}
+{
+	"hammerid" "1003959"
+}
+{
+	"hammerid" "1025924"
+}
+{
+	"hammerid" "1025933"
+}
+{
+	"hammerid" "1026841"
+}
+{
+	"hammerid" "995180"
+}
+{
+	"hammerid" "995189"
+}
+{
+	"hammerid" "996097"
+}
+{
+	"hammerid" "991628"
+}
+{
+	"hammerid" "991637"
+}
+{
+	"hammerid" "992545"
+}
+{
+	"hammerid" "1092856"
+}
+{
+	"hammerid" "1092860"
+}

@@ -1,0 +1,564 @@
+cold stream alpine creek shack 2
+
+; --- shack 2
+; --- frame
+{
+	"classname" "prop_dynamic"
+	"origin" "-2100 2688 36"
+	"angles" "-5 90 0"
+	"model" "models/props_shacks/instance_prop_swamphouse4e.mdl"
+	"solid" "6"
+	"disableshadows" "1"
+}
+; --- wall
+{
+	"classname" "prop_dynamic"
+	"origin" "-2257 2591 123"
+	"angles" "0 0 5"
+	"model" "models/props_doors/shackwall01.mdl"
+	"solid" "6"
+	"disableshadows" "1"
+}
+; --- wall 2
+{
+	"classname" "prop_dynamic"
+	"origin" "-2257 2711 145"
+	"angles" "0 0 5"
+	"model" "models/props_doors/shackwall01_dmg01.mdl"
+	"solid" "6"
+	"disableshadows" "1"
+}
+; --- wall 3
+{
+	"classname" "prop_dynamic"
+	"origin" "-2256 2759 146"
+	"angles" "0 0 5"
+	"model" "models/props_doors/shackwall01_dmg03.mdl"
+	"solid" "6"
+	"disableshadows" "1"
+}
+; --- wall 4
+{
+	"classname" "prop_dynamic"
+	"origin" "-2238 2800 147"
+	"angles" "-5 90 0"
+	"model" "models/props_doors/shackwall01.mdl"
+	"solid" "6"
+	"disableshadows" "1"
+}
+; --- wall 5
+{
+	"classname" "prop_dynamic"
+	"origin" "-2129 2800 147"
+	"angles" "-5 90 0"
+	"model" "models/props_doors/shackwall01.mdl"
+	"solid" "6"
+	"disableshadows" "1"
+}
+; --- wall 6
+{
+	"classname" "prop_dynamic"
+	"origin" "-2065 2800 147"
+	"angles" "-5 90 0"
+	"model" "models/props_doors/shackwall01_dmg03.mdl"
+	"solid" "6"
+	"disableshadows" "1"
+}
+; --- wall 7
+{
+	"classname" "prop_dynamic"
+	"origin" "-2000 2800 147"
+	"angles" "-5 90 0"
+	"model" "models/props_doors/shackwall01_dmg01.mdl"
+	"solid" "6"
+	"disableshadows" "1"
+}
+; --- wall 8
+{
+	"classname" "prop_dynamic"
+	"origin" "-1958 2801 147"
+	"angles" "-5 90 0"
+	"model" "models/props_doors/shackwall01.mdl"
+	"solid" "6"
+	"disableshadows" "1"
+}
+; --- wall 9
+{
+	"classname" "prop_dynamic"
+	"origin" "-1934 2760 147"
+	"angles" "0 0 5"
+	"model" "models/props_doors/shackwall01.mdl"
+	"solid" "6"
+	"disableshadows" "1"
+}
+; --- wall 10
+{
+	"classname" "prop_dynamic"
+	"origin" "-1934 2695 146"
+	"angles" "0 0 5"
+	"model" "models/props_doors/shackwall01_dmg01.mdl"
+	"solid" "6"
+	"disableshadows" "1"
+}
+; --- wall 11
+{
+	"classname" "prop_dynamic"
+	"origin" "-1934 2632 145"
+	"angles" "0 0 5"
+	"model" "models/props_doors/shackwall01_dmg02.mdl"
+	"solid" "6"
+	"disableshadows" "1"
+}
+; --- wall 12
+{
+	"classname" "prop_dynamic"
+	"origin" "-1934 2588 144"
+	"angles" "0 0 5"
+	"model" "models/props_doors/shackwall01.mdl"
+	"solid" "6"
+	"disableshadows" "1"
+}
+; --- wall 13
+{
+	"classname" "prop_dynamic"
+	"origin" "-1971 2573 123"
+	"angles" "-5 90 0"
+	"model" "models/props_doors/shackwall01.mdl"
+	"solid" "6"
+	"disableshadows" "1"
+}
+; --- wall 14
+{
+	"classname" "prop_dynamic"
+	"origin" "-2034 2573 123"
+	"angles" "-5 90 0"
+	"model" "models/props_doors/shackwall01_dmg02.mdl"
+	"solid" "6"
+	"disableshadows" "1"
+}
+; --- wall 15
+{
+	"classname" "prop_dynamic"
+	"origin" "-2098 2573 123"
+	"angles" "-5 90 0"
+	"model" "models/props_doors/shackwall01.mdl"
+	"solid" "6"
+	"disableshadows" "1"
+}
+; --- wall 16
+{
+	"classname" "prop_dynamic"
+	"origin" "-2162 2573 123"
+	"angles" "-5 90 0"
+	"model" "models/props_doors/shackwall01_dmg01.mdl"
+	"solid" "6"
+	"disableshadows" "1"
+}
+; --- wall 17
+{
+	"classname" "prop_dynamic"
+	"origin" "-2226 2573 123"
+	"angles" "-5 90 0"
+	"model" "models/props_doors/shackwall01.mdl"
+	"solid" "6"
+	"disableshadows" "1"
+}
+; --- upper wall
+{
+	"classname" "prop_dynamic"
+	"origin" "-2259 2752 266"
+	"angles" "0 0 95"
+	"model" "models/props_doors/shackwall01_dmg01.mdl"
+	"solid" "6"
+	"disableshadows" "1"
+}
+; --- upper wall 2
+{
+	"classname" "prop_dynamic"
+	"origin" "-2260 2673 261"
+	"angles" "0 0 95"
+	"model" "models/props_doors/shackwall01.mdl"
+	"solid" "6"
+	"disableshadows" "1"
+}
+; --- roof
+{
+	"classname" "prop_dynamic"
+	"origin" "-2241 2811 278"
+	"angles" "90 90 0"
+	"model" "models/props_doors/shackwall01.mdl"
+	"solid" "6"
+	"disableshadows" "1"
+}
+; --- roof 2
+{
+	"classname" "prop_dynamic"
+	"origin" "-2177 2811 277"
+	"angles" "90 90 0"
+	"model" "models/props_doors/shackwall01_dmg02.mdl"
+	"solid" "6"
+	"disableshadows" "1"
+}
+; --- roof 3
+{
+	"classname" "prop_dynamic"
+	"origin" "-2113 2811 280"
+	"angles" "90 90 0"
+	"model" "models/props_doors/shackwall01.mdl"
+	"solid" "6"
+	"disableshadows" "1"
+}
+; --- roof 4
+{
+	"classname" "prop_dynamic"
+	"origin" "-2049 2811 280"
+	"angles" "90 90 0"
+	"model" "models/props_doors/shackwall01.mdl"
+	"solid" "6"
+	"disableshadows" "1"
+}
+; --- roof 5
+{
+	"classname" "prop_dynamic"
+	"origin" "-1984 2811 280"
+	"angles" "90 90 0"
+	"model" "models/props_doors/shackwall01.mdl"
+	"solid" "6"
+	"disableshadows" "1"
+}
+; --- roof 6
+{
+	"classname" "prop_dynamic"
+	"origin" "-2248 2795 283"
+	"angles" "63 270 0"
+	"model" "models/props_doors/shackwall01.mdl"
+	"solid" "6"
+	"disableshadows" "1"
+}
+; --- roof 7
+{
+	"classname" "prop_dynamic"
+	"origin" "-2184 2795 283"
+	"angles" "63 270 0"
+	"model" "models/props_doors/shackwall01_dmg03.mdl"
+	"solid" "6"
+	"disableshadows" "1"
+}
+; --- roof 8
+{
+	"classname" "prop_dynamic"
+	"origin" "-2118 2795 283"
+	"angles" "63 270 0"
+	"model" "models/props_doors/shackwall01.mdl"
+	"solid" "6"
+	"disableshadows" "1"
+}
+; --- roof 9
+{
+	"classname" "prop_dynamic"
+	"origin" "-2056 2795 283"
+	"angles" "63 270 0"
+	"model" "models/props_doors/shackwall01.mdl"
+	"solid" "6"
+	"disableshadows" "1"
+}
+; --- roof 10
+{
+	"classname" "prop_dynamic"
+	"origin" "-1993 2795 283"
+	"angles" "63 270 0"
+	"model" "models/props_doors/shackwall01.mdl"
+	"solid" "6"
+	"disableshadows" "1"
+}
+; --- roof 11
+{
+	"classname" "prop_dynamic"
+	"origin" "-1946 2795 283"
+	"angles" "63 270 0"
+	"model" "models/props_doors/shackwall01.mdl"
+	"solid" "6"
+	"disableshadows" "1"
+}
+; --- roof 12
+{
+	"classname" "prop_dynamic"
+	"origin" "-2250 2753 305"
+	"angles" "63 270 0"
+	"model" "models/props_doors/shackwall01.mdl"
+	"solid" "6"
+	"disableshadows" "1"
+}
+; --- roof 13
+{
+	"classname" "prop_dynamic"
+	"origin" "-2185 2753 305"
+	"angles" "63 270 0"
+	"model" "models/props_doors/shackwall01_dmg03.mdl"
+	"solid" "6"
+	"disableshadows" "1"
+}
+; --- roof 14
+{
+	"classname" "prop_dynamic"
+	"origin" "-2121 2753 305"
+	"angles" "63 270 0"
+	"model" "models/props_doors/shackwall01.mdl"
+	"solid" "6"
+	"disableshadows" "1"
+}
+; --- roof 15
+{
+	"classname" "prop_dynamic"
+	"origin" "-2057 2753 305"
+	"angles" "63 270 0"
+	"model" "models/props_doors/shackwall01_dmg01.mdl"
+	"solid" "6"
+	"disableshadows" "1"
+}
+; --- roof 16
+{
+	"classname" "prop_dynamic"
+	"origin" "-1993 2753 305"
+	"angles" "63 270 0"
+	"model" "models/props_doors/shackwall01.mdl"
+	"solid" "6"
+	"disableshadows" "1"
+}
+; --- roof 17
+{
+	"classname" "prop_dynamic"
+	"origin" "-1946 2753 305"
+	"angles" "63 270 0"
+	"model" "models/props_doors/shackwall01.mdl"
+	"solid" "6"
+	"disableshadows" "1"
+}
+; --- roof 18
+{
+	"classname" "prop_dynamic"
+	"origin" "-2250 2573 290"
+	"angles" "55 90 0"
+	"model" "models/props_doors/shackwall01.mdl"
+	"solid" "6"
+	"disableshadows" "1"
+}
+; --- roof 19
+{
+	"classname" "prop_dynamic"
+	"origin" "-2186 2573 290"
+	"angles" "55 90 0"
+	"model" "models/props_doors/shackwall01.mdl"
+	"solid" "6"
+	"disableshadows" "1"
+}
+; --- roof 20
+{
+	"classname" "prop_dynamic"
+	"origin" "-2122 2573 290"
+	"angles" "55 90 0"
+	"model" "models/props_doors/shackwall01.mdl"
+	"solid" "6"
+	"disableshadows" "1"
+}
+; --- roof 21
+{
+	"classname" "prop_dynamic"
+	"origin" "-2058 2573 290"
+	"angles" "55 90 0"
+	"model" "models/props_doors/shackwall01.mdl"
+	"solid" "6"
+	"disableshadows" "1"
+}
+; --- roof 22
+{
+	"classname" "prop_dynamic"
+	"origin" "-1993 2573 290"
+	"angles" "55 90 0"
+	"model" "models/props_doors/shackwall01_dmg03.mdl"
+	"solid" "6"
+	"disableshadows" "1"
+}
+; --- roof 23
+{
+	"classname" "prop_dynamic"
+	"origin" "-1949 2573 290"
+	"angles" "55 90 0"
+	"model" "models/props_doors/shackwall01.mdl"
+	"solid" "6"
+	"disableshadows" "1"
+}
+; --- roof 24
+{
+	"classname" "prop_dynamic"
+	"origin" "-2235 2432 244"
+	"angles" "80 90 0"
+	"model" "models/props_doors/shackwall01.mdl"
+	"solid" "6"
+	"disableshadows" "1"
+}
+; --- roof 24
+{
+	"classname" "prop_dynamic"
+	"origin" "-2170 2432 244"
+	"angles" "80 90 0"
+	"model" "models/props_doors/shackwall01.mdl"
+	"solid" "6"
+	"disableshadows" "1"
+}
+; --- roof 25
+{
+	"classname" "prop_dynamic"
+	"origin" "-2105 2432 244"
+	"angles" "80 90 0"
+	"model" "models/props_doors/shackwall01_dmg03.mdl"
+	"solid" "6"
+	"disableshadows" "1"
+}
+; --- roof 26
+{
+	"classname" "prop_dynamic"
+	"origin" "-2042 2432 244"
+	"angles" "80 90 0"
+	"model" "models/props_doors/shackwall01_dmg03.mdl"
+	"solid" "6"
+	"disableshadows" "1"
+}
+; --- roof 27
+{
+	"classname" "prop_dynamic"
+	"origin" "-1978 2432 244"
+	"angles" "80 90 0"
+	"model" "models/props_doors/shackwall01.mdl"
+	"solid" "6"
+	"disableshadows" "1"
+}
+; --- floor
+{
+	"classname" "prop_dynamic"
+	"origin" "-2239 2584 126"
+	"angles" "85 90 0"
+	"model" "models/props_doors/shackwall01.mdl"
+	"solid" "6"
+	"disableshadows" "1"
+}
+; --- floor 2
+{
+	"classname" "prop_dynamic"
+	"origin" "-2175 2584 125"
+	"angles" "85 90 0"
+	"model" "models/props_doors/shackwall01.mdl"
+	"solid" "6"
+	"disableshadows" "1"
+}
+; --- floor 3
+{
+	"classname" "prop_dynamic"
+	"origin" "-2111 2584 124"
+	"angles" "85 90 0"
+	"model" "models/props_doors/shackwall01_dmg02.mdl"
+	"solid" "6"
+	"disableshadows" "1"
+}
+; --- floor 4
+{
+	"classname" "prop_dynamic"
+	"origin" "-2046 2584 124"
+	"angles" "85 90 0"
+	"model" "models/props_doors/shackwall01.mdl"
+	"solid" "6"
+	"disableshadows" "1"
+}
+; --- floor 5
+{
+	"classname" "prop_dynamic"
+	"origin" "-1982 2584 124"
+	"angles" "85 90 0"
+	"model" "models/props_doors/shackwall01.mdl"
+	"solid" "6"
+	"disableshadows" "1"
+}
+; --- floor 6
+{
+	"classname" "prop_dynamic"
+	"origin" "-2238 2696 136"
+	"angles" "85 90 0"
+	"model" "models/props_doors/shackwall01.mdl"
+	"solid" "6"
+	"disableshadows" "1"
+}
+; --- floor 7
+{
+	"classname" "prop_dynamic"
+	"origin" "-2175 2698 135"
+	"angles" "85 90 0"
+	"model" "models/props_doors/shackwall01.mdl"
+	"solid" "6"
+	"disableshadows" "1"
+}
+; --- floor 8
+{
+	"classname" "prop_dynamic"
+	"origin" "-2111 2698 135"
+	"angles" "85 90 0"
+	"model" "models/props_doors/shackwall01.mdl"
+	"solid" "6"
+	"disableshadows" "1"
+}
+; --- floor 9
+{
+	"classname" "prop_dynamic"
+	"origin" "-2046 2698 135"
+	"angles" "85 90 0"
+	"model" "models/props_doors/shackwall01.mdl"
+	"solid" "6"
+	"disableshadows" "1"
+}
+; --- floor 10
+{
+	"classname" "prop_dynamic"
+	"origin" "-1982 2698 135"
+	"angles" "85 90 0"
+	"model" "models/props_doors/shackwall01.mdl"
+	"solid" "6"
+	"disableshadows" "1"
+}
+; --- tarped crates
+{
+	"classname" "prop_dynamic"
+	"origin" "-2121 2738 131"
+	"angles" "0 0 5"
+	"model" "models/props_misc/standing_tarp_tall.mdl"
+	"solid" "6"
+	"disableshadows" "1"
+}
+
+
+
+
+; --- ammo supply
+{
+	"classname" "weapon_ammo_spawn"
+	"origin" "-2010 2635 130"
+	"angles" "0 0 5"
+	"model" "models/props/de_prodigy/ammo_can_03.mdl"
+	"solid" "6"
+	"disableshadows" "1"
+	"spawnflags" "2"
+	"count" "5"
+}
+; --- ammo supply solid
+{
+	"classname" "prop_dynamic"
+	"origin" "-2010 2635 130"
+	"angles" "0 0 5"
+	"model" "models/props/de_prodigy/ammo_can_03.mdl"
+	"solid" "6"
+	"disableshadows" "1"
+}
+
+
+
+
+
+

@@ -1,0 +1,22 @@
+neon light detail
+
+
+
+"origin" "1977 168.811 98.008"
+"style" "0"
+"spawnflags" "1"
+"_zero_percent_distance" "0"
+"_shadoworiginoffset" "0 0 0"
+"_quadratic_attn" "1"
+"_linear_attn" "0"
+"_lightscaleHDR" "0.5"
+"_lightHDR" "-1 -1 -1 1"
+"_light" "245 52 18 5"
+"_hardfalloff" "0"
+"_fifty_percent_distance" "0"
+"_distance" "0"
+"_constant_attn" "0"
+"_castentityshadow" "1"
+"classname" "light"
+"hammerid" "498604"
+}{

@@ -1,0 +1,15 @@
+modify:
+{
+	match:
+	{
+		"targetname" "coop_scriptstart"
+	}
+	delete:
+	{
+		"OnTrigger" "directorBeginScriptc10m5_houseboat_finale0-1"
+	}
+	insert:
+	{
+		"OnTrigger" "directorBeginScriptsurv_houseboat_finale0-1"
+	}
+}

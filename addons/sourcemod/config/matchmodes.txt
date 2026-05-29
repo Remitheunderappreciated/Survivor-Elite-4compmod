@@ -2,15 +2,12 @@
 	
 "MatchModes"
 {
-	"SEO Configs"
+	"ZoneMod Configs"
 	{
 		"remisremix"
 		{
 			"name" "survivorelite"
 		}
-	}
-	"ZoneMod Configs"
-	{
 		"zonemod"
 		{
 			"name" "ZoneMod 2.9.1b"

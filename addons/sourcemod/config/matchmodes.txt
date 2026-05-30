@@ -2,9 +2,9 @@
 	
 "MatchModes"
 {
-	"SEO Configs"
+	"Remis Configs"
 	{
-		"remisremix"
+		"survivorelite"
 		{
 			"name" "survivorelite"
 		}

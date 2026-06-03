@@ -1,6 +1,6 @@
 Msg("SEO tank health\n");
 
-Convars.SetValue("sv_consistency", 0);
+Convars.SetValue("sv_consistency", 1);
 Convars.SetValue("sv_pure_kick_clients", 0);
 
 ::DirectorOptions <-

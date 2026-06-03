@@ -1,5 +1,5 @@
 printl( "Survivor Elite Overhaul Dead Weapon Manager Loaded");
-Convars.SetValue("sv_consistency", 0);
+Convars.SetValue("sv_consistency", 1);
 Convars.SetValue("sv_pure_kick_clients", 0);
 
 if (!("MANACAT" in getroottable()))

@@ -576,9 +576,9 @@ g_BridgeDestruction <-
 
 		c13m3_memorialbridge =
 		{
-			trigger_origin = Vector(-3722.606, -6447.695, 444.042)
-			trigger_maxs = Vector(10.111, 1822.004, 1662.693)
-			trigger_mins = Vector()
+			trigger_origin = Vector(-3865, -4472, 1460)
+			trigger_maxs = Vector()
+			trigger_mins = Vector(-153, -8, -130)
 			origin = Vector(-1914.662, -7212.97, 157.138)
 			angles = QAngle(0, -100, 0)
 		}

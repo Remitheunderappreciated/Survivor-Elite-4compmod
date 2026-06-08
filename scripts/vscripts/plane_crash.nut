@@ -602,9 +602,9 @@ g_PlaneCrash <-
 
 		c13m3_memorialbridge =
 		{
-			trigger_origin = Vector(757.256, -4666.164, 822.675)
-			trigger_maxs = Vector(1131.471, 134.771, 1519.715)
-			trigger_mins = Vector()
+			trigger_origin = Vector(1347, -3560, 301)
+			trigger_maxs = Vector()
+			trigger_mins = Vector(-700, -1300, -130)
 			origin = Vector(353.373, -3296.894, 105.241)
 			angles = QAngle(0, 152.687, 0)
 		}

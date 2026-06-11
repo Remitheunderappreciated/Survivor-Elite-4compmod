@@ -419,6 +419,15 @@
 		"start_extra_dist"	"0.000000"
 		"end_dist"			"50.000000"
 		"max_distance"		"600"
+		"tank_ban_flow"
+		{
+			"brick fight"
+			{
+				"min"		"70"
+				"max"		"75"
+			}
+		}
+	}
 	}
 	"c7m2_barge"
 	{

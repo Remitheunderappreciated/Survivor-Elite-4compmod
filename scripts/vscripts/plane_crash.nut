@@ -539,9 +539,9 @@ g_PlaneCrash <-
 		
 		c6m2_bedlam =
 		{
-			trigger_origin = Vector(639.570, 1281.739, -63.969)
-			trigger_maxs = Vector(1707.050, 142.284, 841.336)
-			trigger_mins = Vector()
+			trigger_origin = Vector(1911, 767, 252)
+			trigger_maxs = Vector(8, 8, 8)
+			trigger_mins = Vector(-420, -20, -300)
 			origin = Vector(-757.382, 1156.305, -88.737)
 			angles = QAngle(0, 89.240, 0)
 		}

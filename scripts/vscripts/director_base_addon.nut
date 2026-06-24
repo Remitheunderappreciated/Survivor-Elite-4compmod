@@ -1,5 +1,42 @@
 printl("Survivor Elite Overhaul for Versus is now running. Author: Ɽǝϻɨ");
 
+::nes_spit_fix <- {
+	bugged_ents = {
+	    prop_physics = 0,
+	    prop_dynamic = 0
+	}
+
+	function OnGameEvent_spit_burst(p) {
+	    local projectile = null;
+	    local spitter = GetPlayerFromUserID(p.userid);
+	    while(projectile = Entities.FindByClassname(projectile, "spitter_projectile")) {
+	        if(NetProps.GetPropEntity(projectile, "m_hThrower") == spitter) {
+	            break;
+	        }
+	    }
+	    if(projectile == null) {
+	        return;
+	    }
+
+	    local swarm = EntIndexToHScript(p.subject);
+	    local projectile_pos = projectile.GetOrigin();
+
+	    local trace = {
+	        start = swarm.GetOrigin(),
+	        end = projectile_pos,
+	        mask = DirectorScript.TRACE_MASK_SHOT,
+	        ignore = projectile
+	    }
+
+	    TraceLine(trace);
+	    if("enthit" in trace && trace.enthit.GetClassname() in bugged_ents) {
+	        swarm.SetOrigin(projectile_pos);
+	    }
+	}
+}
+
+__CollectGameEventCallbacks(nes_spit_fix);
+
 ChCh_GasPourTrap <-
 {
     Settings = {

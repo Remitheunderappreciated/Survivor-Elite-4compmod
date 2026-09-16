@@ -389,6 +389,223 @@ if ( !("VSLU" in getroottable()) )
 
     return;
 }
+::WhitakerCoverFire <- {}
+function WhitakerCoverFire::OnGameEvent_player_death( params )
+{
+	if ( Director.GetMapName() != "c1m2_streets" )
+		return;
+	if( params.weapon == "env_weaponfire" )
+	{
+		local orator; orator = Entities.FindByName( orator, "orator" ); 
+		QueueSpeak( orator, "DefendChatter", 0.5, "" );
+	}
+}
+
+function WhitakerCoverFire::OnGameEvent_round_start_post_nav( params )
+{
+   if ( Director.GetMapName() != "c1m2_streets" )
+		return;
+
+	SpawnEntityFromTable("env_weaponfire", {
+		targetname = "whit_cover"
+		TargetArc = "90"
+		TargetRange = "1500"
+		DamageMod = "1.5"
+		WeaponType = "2"
+		TargetTeam = "3"
+		IgnorePlayers = "1"
+		origin = Vector(-5424, -1763, 830)
+		angles = Vector(24, 179, 0)
+		StartDisabled = "1"
+	})
+			
+	EntFire("store_alarm_relay", "AddOutput", "OnTrigger whitaker_door:open::3.7:-1" );
+	EntFire("store_alarm_relay", "AddOutput", "OnTrigger whit_cover:enable::3.7:-1" );
+	//EntFire("store_alarm_relay", "AddOutput", "OnTrigger whitaker:enable::3.7:-1" );
+	EntFire("store_alarm_relay", "AddOutput", "OnTrigger orator:SpeakResponseConcept:C1M2AlarmDoorCover:3.7:-1" );
+	//EntFire("store_alarm_relay", "AddOutput", "OnTrigger !activator:SpeakResponseConcept:C1M2AlarmDoor2 WhoDidIt:!Activator:0:-1" );
+	//EntFire("store_alarm_relay", "RemoveOutput", "OnTrigger !activator:SpeakResponseConcept:C1M2AlarmDoor WhoDidIt:!Activator:0:-1" );
+	
+	EntFire("gunshop_button_relay", "AddOutput", "OnTrigger whitaker_door:close::0,1:-1" );
+	EntFire("gunshop_button_relay", "AddOutput", "OnTrigger whit_cover:disable::0,1:-1" );
+	
+	
+	local worldspawn = Entities.First();
+	local soundScripts =
+	[
+		"Whitaker_ComeUpstairsLongerB04",    "Whitaker_ComeUpstairsLongerD04",
+		"Whitaker_ComeUpstairsLongerD07",      "Whitaker_DefendChatter03",
+		"Whitaker_DefendChatter04",   "Whitaker_DefendChatter05",   "Whitaker_DefendChatter06",
+		"Whitaker_DefendChatter07",   "Whitaker_DefendChatter18"
+	];
+	foreach( soundscript in soundScripts ) {
+		worldspawn.PrecacheScriptSound( soundscript );
+	}
+
+}
+
+__CollectGameEventCallbacks(WhitakerCoverFire);
+
+local function IsNotSaidCommentProtect(query)
+{
+    local newquery = {}
+    foreach(key, val in query){
+        newquery.rawset(key.tolower(), val)}
+
+    if("worldsaidcommentprotect" in newquery){
+        if(newquery.worldsaidcommentprotect.tointeger() != 1)
+            return true
+        else
+            return false
+    }
+    else
+        return true
+}
+
+local function IsTalk(query)
+{
+    local newquery = {}
+    foreach(key, val in query){
+        newquery.rawset(key.tolower(), val)}
+
+    if("worldtalk" in newquery){
+        if(newquery.worldtalk.tointeger() != 1)
+            return true
+        else
+            return false
+    }
+    else
+        return true
+}
+
+IncludeScript("response_testbed", this)
+local newrules =
+[
+
+	//The Following are stubs to mute certain lines
+	{ name = "ConceptC1M2StoreAlarmStub",
+		criteria =
+		[
+			[ "concept", "C1M2StoreAlarm" ],
+			[ "name", "orator" ],
+		],
+		responses =
+		[
+            {   scenename = "scenes/npcs/orator_blank.vcd"	} // Stub
+		],
+		group_params = g_rr.RGroupParams({})
+	},
+	
+	{ name = "ConceptC1M2WhitakerErrandInProgressStub",
+		criteria =
+		[
+			[ "concept", "C1M2WhitakerErrandInProgress" ],
+			[ "name", "orator" ],
+		],
+		responses =
+		[
+            {   scenename = "scenes/npcs/orator_blank.vcd"	} // Stub
+		],
+		group_params = g_rr.RGroupParams({})
+	},
+	
+	{ name = "NPCC1M2WhitakerPutColaStub",
+		criteria =
+		[
+			[ "concept", "whitakerputcola" ],
+			[ "name", "orator" ],
+			[ IsTalk ],
+		],
+		responses =
+		[
+            {   scenename = "scenes/npcs/Whitaker_MissionCompleted01.vcd", applycontexttoworld = true, applycontext = {context = "Talk", value = 1, duration = 5}  }  //Put the cola in the slot.
+            {   scenename = "scenes/npcs/Whitaker_MissionCompleted02.vcd", applycontexttoworld = true, applycontext = {context = "Talk", value = 1, duration = 5}  }  //Put the cola in the slot.
+            {   scenename = "scenes/npcs/Whitaker_MissionCompleted03.vcd", applycontexttoworld = true, applycontext = {context = "Talk", value = 1, duration = 5}  }  //You got the cola. Put it in the slot.
+            {   scenename = "scenes/npcs/Whitaker_MissionCompleted04.vcd", applycontexttoworld = true, applycontext = {context = "Talk", value = 1, duration = 5}  }  //There's my cola. Quick, put it in the slot.
+            {   scenename = "scenes/npcs/Whitaker_MissionCompleted05.vcd", applycontexttoworld = true, applycontext = {context = "Talk", value = 1, duration = 5}  }  //Yeah, put it in the damn slot.
+            {   scenename = "scenes/npcs/Whitaker_MissionCompleted13.vcd", applycontexttoworld = true, applycontext = {context = "Talk", value = 1, duration = 5}  }  //Hey, put the cola in the slot.
+            {   scenename = "scenes/npcs/Whitaker_MissionCompleted14.vcd", applycontexttoworld = true, applycontext = {context = "Talk", value = 1, duration = 5}  }  //Put the cola in the slot, will ya?
+            {   scenename = "scenes/npcs/Whitaker_MissionCompleted15.vcd", applycontexttoworld = true, applycontext = {context = "Talk", value = 1, duration = 5}  }  //Okay, that's my cola. Yes, yes. Put it in the slot!
+		],
+		group_params = g_rr.RGroupParams({})
+	},
+	
+	{ name = "PlayerC1M2AlarmDoor2Whitaker",
+		criteria =
+		[
+			[ "concept", "C1M2AlarmDoorCover" ],
+			[ "name", "orator" ],
+		],
+		responses =
+		[
+            {   scenename = "scenes/npcs/whitaker_defendchatter03.vcd", applycontexttoworld = true, applycontext = {context1 = {context = "SaidCommentProtect", value = "1", duration = 5},context2 = {context = "Talk", value = "1", duration = 5}} }
+            {   scenename = "scenes/npcs/whitaker_defendchatter04.vcd", applycontexttoworld = true, applycontext = {context1 = {context = "SaidCommentProtect", value = "1", duration = 5},context2 = {context = "Talk", value = "1", duration = 5}} }
+            {   scenename = "scenes/npcs/whitaker_defendchatter05.vcd", applycontexttoworld = true, applycontext = {context1 = {context = "SaidCommentProtect", value = "1", duration = 5},context2 = {context = "Talk", value = "1", duration = 5}} }
+            {   scenename = "scenes/npcs/whitaker_defendchatter07.vcd", applycontexttoworld = true, applycontext = {context1 = {context = "SaidCommentProtect", value = "1", duration = 5},context2 = {context = "Talk", value = "1", duration = 5}} }
+            //{   scenename = "scenes/npcs/whitaker_defendchatter03.vcd", applycontexttoworld = true, applycontext = {context = "SaidCommentProtect", value = 1, duration = 5}  }
+            //{   scenename = "scenes/npcs/whitaker_defendchatter04.vcd", applycontexttoworld = true, applycontext = {context = "SaidCommentProtect", value = 1, duration = 5}  }
+            //{   scenename = "scenes/npcs/whitaker_defendchatter05.vcd", applycontexttoworld = true, applycontext = {context = "SaidCommentProtect", value = 1, duration = 5}  }
+            //{   scenename = "scenes/npcs/whitaker_defendchatter07.vcd", applycontexttoworld = true, applycontext = {context = "SaidCommentProtect", value = 1, duration = 5}  }
+		],
+		group_params = g_rr.RGroupParams({})
+	},
+	
+	{ name = "WhitakerDefendChatterShort",
+		criteria =
+		[
+			[ "concept", "DefendChatter" ],
+			[ "name", "orator" ],
+			[ "randomnum", 0,75 ],
+			[ IsNotSaidCommentProtect ],
+			[ IsTalk ],
+		],
+		responses =
+		[
+            {   scenename = "scenes/npcs/whitaker_defendchatter06.vcd", applycontexttoworld = true, applycontext = {context1 = {context = "SaidCommentProtect", value = "1", duration = 5},context2 = {context = "Talk", value = "1", duration = 8}} }
+            {   scenename = "scenes/npcs/whitaker_defendchatter06.vcd", applycontexttoworld = true, applycontext = {context1 = {context = "SaidCommentProtect", value = "1", duration = 5},context2 = {context = "Talk", value = "1", duration = 8}} }
+            {   scenename = "scenes/npcs/whitaker_defendchatter18.vcd", applycontexttoworld = true, applycontext = {context1 = {context = "SaidCommentProtect", value = "1", duration = 5},context2 = {context = "Talk", value = "1", duration = 8}} }
+            {   scenename = "scenes/npcs/whitaker_defendchatter18.vcd", applycontexttoworld = true, applycontext = {context1 = {context = "SaidCommentProtect", value = "1", duration = 5},context2 = {context = "Talk", value = "1", duration = 8}} }
+		],
+		group_params = g_rr.RGroupParams({})
+	},
+	
+	{ name = "WhitakerDefendChatterNag",
+		criteria =
+		[
+			[ "concept", "DefendChatter" ],
+			[ "name", "orator" ],
+			[ "randomnum", 0,25 ],
+			[ IsNotSaidCommentProtect ],
+			[ IsTalk ],
+		],
+		responses =
+		[
+            {   scenename = "scenes/npcs/whitaker_defendchatter05.vcd", applycontexttoworld = true, applycontext = {context1 = {context = "SaidCommentProtect", value = "1", duration = 5},context2 = {context = "Talk", value = "1", duration = 10}} }
+            {   scenename = "scenes/npcs/whitaker_defendchatter07.vcd", applycontexttoworld = true, applycontext = {context1 = {context = "SaidCommentProtect", value = "1", duration = 5},context2 = {context = "Talk", value = "1", duration = 10}} }
+		],
+		group_params = g_rr.RGroupParams({})
+	},
+	
+	{ name = "WhitakerDefendChatterRare",
+		criteria =
+		[
+			[ "concept", "DefendChatter" ],
+			[ "name", "orator" ],
+			[ "randomnum", 0,15 ],
+			[ IsNotSaidCommentProtect ],
+			[ IsTalk ],
+		],
+		responses =
+		[
+            {   scenename = "scenes/npcs/whitaker_comeupstairslongerb04.vcd", applycontexttoworld = true, applycontext = {context1 = {context = "SaidCommentProtect", value = "1", duration = 5},context2 = {context = "Talk", value = "1", duration = 10}} }
+            {   scenename = "scenes/npcs/whitaker_comeupstairslongerd04.vcd", applycontexttoworld = true, applycontext = {context1 = {context = "SaidCommentProtect", value = "1", duration = 5},context2 = {context = "Talk", value = "1", duration = 10}} }
+            {   scenename = "scenes/npcs/whitaker_comeupstairslongerd07.vcd", applycontexttoworld = true, applycontext = {context1 = {context = "SaidCommentProtect", value = "1", duration = 5},context2 = {context = "Talk", value = "1", duration = 10}} }
+		],
+		group_params = g_rr.RGroupParams({})
+	},
+]
+
+g_rr.rr_ProcessRules( newrules );
 
 IncludeScript( "plane_crash", getroottable() );
 
@@ -406,3 +623,4 @@ IncludeScript("custom_tank_health");
 
 IncludeScript("survivorshoving")
 
+IncludeScript("fire_spreads_geeb");

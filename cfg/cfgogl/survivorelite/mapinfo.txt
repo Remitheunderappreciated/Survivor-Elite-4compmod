@@ -10,10 +10,10 @@
 		"max_distance"		"600"
 		"tank_ban_flow"
 		{
-			"bottom of elevator"
+			"before elevator"
 			{
-				"min"		"80"
-				"max"		"81"
+				"min"		"0"
+				"max"		"79"
 			}
 		}
 	}
@@ -29,8 +29,13 @@
 		{
 			"dumpster chokepoint"
 			{
-				"min"		"50"
-				"max"		"60"
+				"min"		"0"
+				"max"		"45"
+			}
+			"after event"
+			{
+				"min"		"51"
+				"max"		"100"
 			}
 		}
 	}
@@ -46,8 +51,13 @@
 		{
 			"food court"
 			{
-				"min"		"30"
-				"max"		"40"
+				"min"		"0"
+				"max"		"39"
+			}
+			"after food court"
+			{
+				"min"		"45"
+				"max"		"100"
 			}
 		}
 	}
@@ -69,12 +79,17 @@
 		"start_extra_dist"	"0.000000"
 		"end_dist"			"150.000000"
 		"max_distance"		"500"
-		"witch_ban_flow"
+		"tank_ban_flow"
 		{
 			"motel"
 			{
-				"min"		"50"
-				"max"		"60"
+				"min"		"0"
+				"max"		"49"
+			}
+			"p"
+			{
+				"min"		"60"
+				"max"		"100"
 			}
 		}
 	}
@@ -90,8 +105,13 @@
 		{
 			"after barn"
 			{
-				"min"		"40"
-				"max"		"50"
+				"min"		"0"
+				"max"		"49"
+			}
+			"p"
+			{
+				"min"		"60"
+				"max"		"100"
 			}
 		}
 	}
@@ -107,8 +127,13 @@
 		{
 			"before coaster"
 			{
-				"min"		"50"
-				"max"		"60"
+				"min"		"0"
+				"max"		"59"
+			}
+			"p"
+			{
+				"min"		"65"
+				"max"		"100"
 			}
 		}
 	}
@@ -120,12 +145,17 @@
 		"start_extra_dist"	"150.000000"
 		"end_dist"			"250.000000"
 		"max_distance"		"800"
-		"witch_ban_flow"
+		"tank_ban_flow"
 		{
 			"just after bumper carts"
 			{
-				"min"		"25"
-				"max"		"40"
+				"min"		"0"
+				"max"		"24"
+			}
+			"p"
+			{
+				"min"		"31"
+				"max"		"100"
 			}
 		}
 	}
@@ -150,8 +180,13 @@
 		{
 			"before you get to town"
 			{
-				"min"		"20"
-				"max"		"40"
+				"min"		"0"
+				"max"		"19"
+			}
+			"p"
+			{
+				"min"		"26"
+				"max"		"100"
 			}
 		}
 	}
@@ -167,8 +202,13 @@
 		{
 			"after airplane event"
 			{
-				"min"		"60"
-				"max"		"80"
+				"min"		"0"
+				"max"		"59"
+			}
+			"p"
+			{
+				"min"		"76"
+				"max"		"100"
 			}
 		}
 	}
@@ -184,8 +224,13 @@
 		{
 			"after weapon location"
 			{
-				"min"		"50"
-				"max"		"60"
+				"min"		"0"
+				"max"		"49"
+			}
+			"p"
+			{
+				"min"		"61"
+				"max"		"100"
 			}
 		}
 	}
@@ -200,8 +245,13 @@
 		{
 			"before airplane crash"
 			{
-				"min"		"20"
-				"max"		"25"
+				"min"		"0"
+				"max"		"24"
+			}
+			"p"
+			{
+				"min"		"30"
+				"max"		"100"
 			}
 		}
 	}
@@ -217,8 +267,13 @@
 		{
 			"once you get to third street"
 			{
-				"min"		"40"
-				"max"		"60"
+				"min"		"0"
+				"max"		"39"
+			}
+			"p"
+			{
+				"min"		"46"
+				"max"		"100"
 			}
 		}
 	}
@@ -234,8 +289,13 @@
 		{
 			"in the middle of the foundry"
 			{
-				"min"		"50"
-				"max"		"65"
+				"min"		"0"
+				"max"		"49"
+			}
+			"p"
+			{
+				"min"		"66"
+				"max"		"100"
 			}
 		}
 	}
@@ -251,8 +311,13 @@
 		{
 			"alleyway mid foundry"
 			{
-				"min"		"50"
-				"max"		"70"
+				"min"		"0"
+				"max"		"49"
+			}
+			"p"
+			{
+				"min"		"69"
+				"max"		"100"
 			}
 		}
 	}
@@ -268,8 +333,13 @@
 		{
 			"fourth street/starting street"
 			{
-				"min"		"20"
-				"max"		"40"
+				"min"		"0"
+				"max"		"19"
+			}
+			"p"
+			{
+				"min"		"41"
+				"max"		"100"
 			}
 		}
 	}
@@ -292,10 +362,15 @@
 		"max_distance"		"500"
 		"tank_ban_flow"
 		{
-			"end of street appraoching alleys"
+			"end of street approaching alleys"
 			{
-				"min"		"50"
-				"max"		"80"
+				"min"		"0"
+				"max"		"49"
+			}
+			"p"
+			{
+				"min"		"81"
+				"max"		"100"
 			}
 		}
 	}
@@ -311,8 +386,13 @@
 		{
 			"exiting alleyway after medkits"
 			{
-				"min"		"38"
-				"max"		"45"
+				"min"		"0"
+				"max"		"37"
+			}
+			"p"
+			{
+				"min"		"46"
+				"max"		"100"
 			}
 		}
 	}
@@ -328,8 +408,13 @@
 		{
 			"after tool shack before trailor"
 			{
-				"min"		"30"
-				"max"		"35"
+				"min"		"0"
+				"max"		"29"
+			}
+			"p"
+			{
+				"min"		"36"
+				"max"		"100"
 			}
 		}
 	}
@@ -345,8 +430,13 @@
 		{
 			"event area"
 			{
-				"min"		"60"
-				"max"		"80"
+				"min"		"0"
+				"max"		"61"
+			}
+			"p"
+			{
+				"min"		"81"
+				"max"		"100"
 			}
 		}
 	}
@@ -362,8 +452,13 @@
 		{
 			"early tank chaos"
 			{
-				"min"		"20"
-				"max"		"40"
+				"min"		"0"
+				"max"		"19"
+			}
+			"p"
+			{
+				"min"		"41"
+				"max"		"100"
 			}
 		}
 	}
@@ -379,8 +474,13 @@
 		{
 			"before park"
 			{
-				"min"		"50"
-				"max"		"60"
+				"min"		"0"
+				"max"		"49"
+			}
+			"motel"
+			{
+				"min"		"61"
+				"max"		"100"
 			}
 		}
 
@@ -397,8 +497,13 @@
 		{
 			"street fight"
 			{
-				"min"		"65"
-				"max"		"70"
+				"min"		"0"
+				"max"		"64"
+			}
+			"motel"
+			{
+				"min"		"69"
+				"max"		"100"
 			}
 		}
 	}
@@ -423,8 +528,13 @@
 		{
 			"brick fight"
 			{
-				"min"		"70"
-				"max"		"75"
+				"min"		"0"
+				"max"		"69"
+			}
+			"p"
+			{
+				"min"		"76"
+				"max"		"100"
 			}
 		}
 	}
@@ -441,8 +551,13 @@
 		{
 			"open area fight"
 			{
-				"min"		"60"
-				"max"		"70"
+				"min"		"0"
+				"max"		"59"
+			}
+			"p"
+			{
+				"min"		"71"
+				"max"		"100"
 			}
 		}
 	}
@@ -467,8 +582,13 @@
 		{
 			"street fight"
 			{
-				"min"		"70"
-				"max"		"75"
+				"min"		"0"
+				"max"		"69"
+			}
+			"p"
+			{
+				"min"		"76"
+				"max"		"100"
 			}
 		}
 	}
@@ -484,8 +604,13 @@
 		{
 			"generator room post event"
 			{
-				"min"		"80"
-				"max"		"85"
+				"min"		"0"
+				"max"		"79"
+			}
+			"p"
+			{
+				"min"		"86"
+				"max"		"100"
 			}
 		}
 	}
@@ -501,8 +626,13 @@
 		{
 			"open area before event"
 			{
-				"min"		"25"
-				"max"		"30"
+				"min"		"0"
+				"max"		"24"
+			}
+			"p"
+			{
+				"min"		"31"
+				"max"		"100"
 			}
 		}
 	}
@@ -518,8 +648,13 @@
 		{
 			"open room"
 			{
-				"min"		"30"
-				"max"		"35"
+				"min"		"0"
+				"max"		"29"
+			}
+			"p"
+			{
+				"min"		"36"
+				"max"		"100"
 			}
 		}
 	}
@@ -544,8 +679,13 @@
 		{
 			"before first underpass"
 			{
-				"min"		"40"
-				"max"		"50"
+				"min"		"0"
+				"max"		"39"
+			}
+			"p"
+			{
+				"min"		"51"
+				"max"		"100"
 			}
 		}
 	}
@@ -561,8 +701,13 @@
 		{
 			"early tank chaos"
 			{
-				"min"		"15"
-				"max"		"25"
+				"min"		"0"
+				"max"		"14"
+			}
+			"p"
+			{
+				"min"		"26"
+				"max"		"100"
 			}
 		}
 	}
@@ -578,8 +723,13 @@
 		{
 			"early tank chaos"
 			{
-				"min"		"25"
-				"max"		"35"
+				"min"		"0"
+				"max"		"24"
+			}
+			"p"
+			{
+				"min"		"36"
+				"max"		"100"
 			}
 		}
 	}
@@ -595,8 +745,13 @@
 		{
 			"after event"
 			{
-				"min"		"60"
-				"max"		"70"
+				"min"		"0"
+				"max"		"59"
+			}
+			"p"
+			{
+				"min"		"71"
+				"max"		"100"
 			}
 		}
 	}
@@ -612,8 +767,13 @@
 		{
 			"trainyard"
 			{
-				"min"		"30"
-				"max"		"40"
+				"min"		"0"
+				"max"		"29"
+			}
+			"p"
+			{
+				"min"		"41"
+				"max"		"100"
 			}
 		}
 	}
@@ -629,8 +789,13 @@
 		{
 			"parking lot"
 			{
-				"min"		"50"
-				"max"		"55"
+				"min"		"0"
+				"max"		"49"
+			}
+			"p"
+			{
+				"min"		"56"
+				"max"		"100"
 			}
 		}
 	}
@@ -646,8 +811,13 @@
 		{
 			"early tank chaos"
 			{
-				"min"		"20"
-				"max"		"25"
+				"min"		"0"
+				"max"		"19"
+			}
+			"p"
+			{
+				"min"		"26"
+				"max"		"100"
 			}
 		}
 	}
@@ -663,8 +833,13 @@
 		{
 			"death charge"
 			{
-				"min"		"70"
-				"max"		"80"
+				"min"		"0"
+				"max"		"69"
+			}
+			"p"
+			{
+				"min"		"81"
+				"max"		"100"
 			}
 		}
 	}
@@ -680,8 +855,13 @@
 		{
 			"after event"
 			{
-				"min"		"50"
-				"max"		"70"
+				"min"		"0"
+				"max"		"49"
+			}
+			"p"
+			{
+				"min"		"71"
+				"max"		"100"
 			}
 		}
 	}
@@ -697,8 +877,13 @@
 		{
 			"airport entrance"
 			{
-				"min"		"50"
-				"max"		"70"
+				"min"		"0"
+				"max"		"49"
+			}
+			"p"
+			{
+				"min"		"71"
+				"max"		"100"
 			}
 		}
 	}
@@ -714,8 +899,13 @@
 		{
 			"before event"
 			{
-				"min"		"25"
-				"max"		"35"
+				"min"		"0"
+				"max"		"24"
+			}
+			"p"
+			{
+				"min"		"36"
+				"max"		"100"
 			}
 		}
 	}
@@ -731,8 +921,13 @@
 		{
 			"early tank chaos"
 			{
-				"min"		"20"
-				"max"		"25"
+				"min"		"0"
+				"max"		"19"
+			}
+			"p"
+			{
+				"min"		"26"
+				"max"		"100"
 			}
 		}
 	}
@@ -748,8 +943,13 @@
 		{
 			"after bridge"
 			{
-				"min"		"60"
-				"max"		"80"
+				"min"		"0"
+				"max"		"59"
+			}
+			"p"
+			{
+				"min"		"81"
+				"max"		"100"
 			}
 		}
 	}
@@ -765,8 +965,13 @@
 		{
 			"trainyard"
 			{
-				"min"		"70"
-				"max"		"75"
+				"min"		"0"
+				"max"		"69"
+			}
+			"p"
+			{
+				"min"		"76"
+				"max"		"100"
 			}
 		}
 	}
@@ -782,8 +987,13 @@
 		{
 			"bushy pathway"
 			{
-				"min"		"80"
-				"max"		"85"
+				"min"		"0"
+				"max"		"79"
+			}
+			"p"
+			{
+				"min"		"86"
+				"max"		"100"
 			}
 		}
 	}
@@ -799,8 +1009,13 @@
 		{
 			"after drop"
 			{
-				"min"		"40"
-				"max"		"50"
+				"min"		"0"
+				"max"		"39"
+			}
+			"p"
+			{
+				"min"		"51"
+				"max"		"100"
 			}
 		}
 	}
@@ -816,8 +1031,13 @@
 		{
 			"early tank chaos"
 			{
-				"min"		"20"
-				"max"		"25"
+				"min"		"0"
+				"max"		"24"
+			}
+			"p"
+			{
+				"min"		"26"
+				"max"		"100"
 			}
 		}
 	}
@@ -833,8 +1053,13 @@
 		{
 			"by treehouse"
 			{
-				"min"		"35"
-				"max"		"50"
+				"min"		"0"
+				"max"		"34"
+			}
+			"p"
+			{
+				"min"		"51"
+				"max"		"100"
 			}
 		}
 	}
@@ -850,8 +1075,13 @@
 		{
 			"after chokepoint"
 			{
-				"min"		"60"
-				"max"		"65"
+				"min"		"0"
+				"max"		"59"
+			}
+			"p"
+			{
+				"min"		"66"
+				"max"		"100"
 			}
 		}
 	}
@@ -867,8 +1097,13 @@
 		{
 			"junkyard"
 			{
-				"min"		"80"
-				"max"		"85"
+				"min"		"0"
+				"max"		"79"
+			}
+			"p"
+			{
+				"min"		"86"
+				"max"		"100"
 			}
 		}
 	}
@@ -884,8 +1119,13 @@
 		{
 			"early tank chaos"
 			{
-				"min"		"20"
-				"max"		"25"
+				"min"		"0"
+				"max"		"19"
+			}
+			"p"
+			{
+				"min"		"26"
+				"max"		"100"
 			}
 		}
 	}
@@ -901,8 +1141,13 @@
 		{
 			"mechanic/junkyard"
 			{
-				"min"		"20"
-				"max"		"25"
+				"min"		"0"
+				"max"		"19"
+			}
+			"p"
+			{
+				"min"		"26"
+				"max"		"100"
 			}
 		}
 	}
@@ -918,8 +1163,13 @@
 		{
 			"early tank chaos"
 			{
-				"min"		"10"
-				"max"		"20"
+				"min"		"0"
+				"max"		"9"
+			}
+			"p"
+			{
+				"min"		"21"
+				"max"		"100"
 			}
 		}
 	}

@@ -1,5 +1,0 @@
-Tank presses E near a special infected to grab it.
-Tank presses right-click (rock attack) to throw it.
-
-0 = turn off. 1= enable
-sm_tankthrow_enable 1

@@ -1,4 +1,4 @@
-can you make a left 4 dead 2 sourcemod plugin that makes the common infected stop following navigation for a brief moment in order to throw a     garbage prop at a survivor when the survivor is roughly 30 units vertically above them and in range of about 900 units horizontally. make the garbage being thrown travel at the same velocity as a pipebomb. make the garbage do 1 damage to survivor when it hits them. use this list of props for the garbage that will be thrown by the common infected: 
+can you make a left 4 dead 2 sourcemod plugin that makes the common infected stop following navigation for a brief moment in order to spawn and throw a garbage prop at a survivor when the survivor is roughly 30 units vertically above them and in range of about 900 units horizontally. make the garbage being thrown travel at the same velocity as a pipebomb. make the garbage do 1 damage to survivor when it hits them. make the garbage prop vanish when it hits a wall, ceiling, floor, prop, or survivor. use this list of props for the garbage that will be thrown by the common infected: 
 
 models/props_junk/garbage_hubcap01a.mdl
 models/props_junk/garbage_milkcarton002a.mdl

@@ -1,0 +1,32 @@
+"Phrases"
+{
+	"Revive_Wait"
+	{
+		"ru"		"{olive}Поднятие {white}через {orange}%d"
+	}
+
+	"Revive_Done"
+	{
+		"ru"		"{olive}Вас подняли!"
+	}
+
+	"Revive_UsePills"
+	{
+		"ru"		"{olive}[Incap] {white}вы можете использовать {orange}таблетки {white},чтобы подняться"
+	}
+
+	"Revive_UseAdren"
+	{
+		"ru"		"{olive}[Incap] {white}вы можете использовать {orange}Адреналин {white},чтобы подняться"
+	}
+
+	"Heal_UsePills"
+	{
+		"ru"		"{olive}[Incap] {white}вы можете использовать {orange}таблетки {white},чтобы вылечиться"
+	}
+
+	"Heal_UseAdren"
+	{
+		"ru"		"{olive}[Incap] {white}вы можете использовать {orange}Адреналин {white},чтобы вылечиться"
+	}
+}

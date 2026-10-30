@@ -1,0 +1,23 @@
+can you make a left 4 dead 2 sourcemod plugin that makes the common infected stop following navigation for a brief moment in order to throw a     garbage prop at a survivor when the survivor is roughly 30 units vertically above them and in range of about 900 units horizontally. make the garbage being thrown travel at the same velocity as a pipebomb. make the garbage do 1 damage to survivor when it hits them. use this list of props for the garbage that will be thrown by the common infected: 
+
+models/props_junk/garbage_hubcap01a.mdl
+models/props_junk/garbage_milkcarton002a.mdl
+models/props_junk/garbage_glassbottle003a.mdl
+models/props_junk/garbage_plasticbottle003a.mdl
+models/props_junk/garbage_smallbox01a.mdl
+models/props_junk/garbage_sodacan01a.mdl
+models/props_junk/garbage_sodacan01a_crushed.mdl
+models/props_junk/garbage_sodacup01a.mdl
+models/props_junk/garbage_spraypaintcan01a.mdl
+models/props_junk/garbage_takeoutbox01a.mdl
+models/props_junk/garbage_tunacan01a.mdl
+models/props_junk/garbage_glassbottle001a.mdl
+models/props_junk/garbage_cleanercan01a.mdl
+models/props_junk/garbage_beancan01a.mdl
+models/props_fairgrounds/garbage_popcorn_box.mdl
+models/props_fairgrounds/garbage_hamburger_container.mdl
+models/props_fairgrounds/garbage_drinks_container.mdl
+models/props_junk/garbage_cellphone01a.mdl
+models/props_junk/garbage_metalcan002a.mdl
+
+

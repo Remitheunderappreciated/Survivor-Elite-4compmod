@@ -492,14 +492,7 @@ g_PlaneCrash <-
 
 	PlaneCrashParams =
 	{
-		c1m1_hotel =
-		{
-			trigger_origin = Vector(1668, 6121, 2656)
-			trigger_maxs = Vector(156.765, 17.999, 138.520)
-			trigger_mins = Vector()
-			origin = Vector(2302, 6850, 1544)
-			angles = QAngle(0, 0, 0)
-		}
+		
 		
 		c1m2_streets =
 		{
@@ -512,9 +505,9 @@ g_PlaneCrash <-
 
 		c2m1_highway =
 		{
-			trigger_origin = Vector(1844.480, 6705.288, -1118.534)
-			trigger_maxs = Vector(2136.581, 16.381, 971.237)
-			trigger_mins = Vector()
+			trigger_origin = Vector(2486, 1993, -1688)
+			trigger_maxs = Vector(8, 8, 8)
+			trigger_mins = Vector(-1500, -800, -8)
 			origin = Vector(1237, 7262, -722)
 			angles = QAngle(0, 230, 0)
 		}

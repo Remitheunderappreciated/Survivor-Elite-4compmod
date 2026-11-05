@@ -300,6 +300,27 @@
 }
 
 
+{
+"origin" "-4664 -3544 40"
+"targetname" "relay_car_escape"
+"spawnflags" "0"
+"classname" "logic_relay"
+"hammerid" "528456"
+"OnTrigger" "trigger_finaleFinaleEscapeForceSurvivorPositions0.2-1"
+"OnTrigger" "fade_outro_1Fade0-1"
+"OnTrigger" "relay_endgameTrigger0-1"
+"OnTrigger" "gas_nozzleKill0-1"
+"OnTrigger" "rand_camera_pickerPickRandomShuffle0.2-1"
+"OnTrigger" "escape_3Enable0-1"
+"OnTrigger" "escape_4Enable0-1"
+"OnTrigger" "escape_2Enable0-1"
+"OnTrigger" "escape_6Enable0-1"
+"OnTrigger" "escape_7Enable0-1"
+"OnTrigger" "exitdoor_portalOpen0-1"
+"OnTrigger" "escape_1Enable0-1"
+"OnTrigger" "!activatorSpeakResponseConceptc1m4escape0-1"
+}
+
 
 
 -----------------------------------------
@@ -356,29 +377,43 @@ add:
 "classname" "logic_relay"
 "OnTrigger" "boat_scavenge_cansTurnGlowsOn2-1"
 "OnTrigger" "boat_scavenge_game_eventGenerateGameEvent0-1"
-"OnTrigger" "progress_displayTurnOn0-1"
+"OnTrigger" "boat_progress_displayTurnOn0-1"
+}
+{
+"origin" "-4941 6683 53"
+"targetname" "boat_progress_display"
+"max" "6"
+"classname" "game_scavenge_progress_display"
 }
 ; --- event explain
 {
 "origin" "-4953 6771 90"
 "targetname" "boat_scavenge_game_event"
 "spawnflags" "1"
-"range" "75"
+"range" "500"
 "event_name" "explain_scavenge_goal"
 "classname" "info_game_event_proxy"
 }
 {
 "origin" "-4953 6771 90"
-"targetname" "@director"
+"targetname" "@boat_director"
 "classname" "info_director"
 "OnTeamScored" "branch_gascan_usedSetValue101"
-"OnTeamScored" "@directorrunscriptcodeDirectorScript.MapScript.LocalScript.GasCanPoured()0-1"
+"OnTeamScored" "@boat_directorrunscriptcodeDirectorScript.MapScript.LocalScript.GasCanPoured()0-1"
 "OnScavengeTimerExpired" "relay_scvng_timer_expireTrigger0-1"
 "OnScavengeRoundStart" "relay_scavenge_roundstartTrigger0-1"
 "OnScavengeOvertimeStart" "relay_scvng_overtime_startTrigger0-1"
 "OnScavengeIntensityChanged" "case_scvng_intensityInValue0-1"
 }
-
+{
+"origin" "-4941 6683 53"
+"targetname" "relay_end_boat_scavenge"
+"spawnflags" "0"
+"classname" "logic_relay"
+"OnTrigger" ""
+"OnTrigger" "GenerateGameEvent0-1"
+"OnTrigger" "boat_progress_displayTurnOff0-1"
+}
 
 
 
@@ -391,6 +426,8 @@ add:
 "classname" "logic_auto"
 "OnMultiNewMap" "ferry_buttonTurnGlowsOff0.1-1"
 "OnMultiNewRound" "ferry_buttonTurnGlowsOff0.1-1"
+"OnMultiNewMap" "ferry_winchTurnGlowsOff0-1"
+"OnMultiNewRound" "ferry_winchTurnGlowsOff0-1"
 }
 {
 "origin" "-4941 6683 53"
@@ -472,7 +509,7 @@ add:
 "body" "0"
 "angles" "0 90 0"
 "classname" "weapon_scavenge_item_spawn"
-"OnItemPickedUp" "@directorrunscriptcodeDirectorScript.MapScript.LocalScript.GasCanTouched()0-1"
+"OnItemPickedUp" "@boat_directorrunscriptcodeDirectorScript.MapScript.LocalScript.GasCanTouched()0-1"
 }
 {
 "origin" "-6197 7914 59"
@@ -486,7 +523,7 @@ add:
 "body" "0"
 "angles" "0 90 0"
 "classname" "weapon_scavenge_item_spawn"
-"OnItemPickedUp" "@directorrunscriptcodeDirectorScript.MapScript.LocalScript.GasCanTouched()0-1"
+"OnItemPickedUp" "@boat_directorrunscriptcodeDirectorScript.MapScript.LocalScript.GasCanTouched()0-1"
 }
 {
 "origin" "-7411 6293 43"
@@ -500,7 +537,7 @@ add:
 "body" "0"
 "angles" "0 90 0"
 "classname" "weapon_scavenge_item_spawn"
-"OnItemPickedUp" "@directorrunscriptcodeDirectorScript.MapScript.LocalScript.GasCanTouched()0-1"
+"OnItemPickedUp" "@boat_directorrunscriptcodeDirectorScript.MapScript.LocalScript.GasCanTouched()0-1"
 }
 {
 "origin" "-7293 7698 83"
@@ -514,7 +551,7 @@ add:
 "body" "0"
 "angles" "0 90 0"
 "classname" "weapon_scavenge_item_spawn"
-"OnItemPickedUp" "@directorrunscriptcodeDirectorScript.MapScript.LocalScript.GasCanTouched()0-1"
+"OnItemPickedUp" "@boat_directorrunscriptcodeDirectorScript.MapScript.LocalScript.GasCanTouched()0-1"
 }
 {
 "origin" "-8557 7257 83"
@@ -528,7 +565,7 @@ add:
 "body" "0"
 "angles" "0 0 0"
 "classname" "weapon_scavenge_item_spawn"
-"OnItemPickedUp" "@directorrunscriptcodeDirectorScript.MapScript.LocalScript.GasCanTouched()0-1"
+"OnItemPickedUp" "@boat_directorrunscriptcodeDirectorScript.MapScript.LocalScript.GasCanTouched()0-1"
 }
 {
 "origin" "-7927 8697 211"
@@ -542,7 +579,7 @@ add:
 "body" "0"
 "angles" "0 90 0"
 "classname" "weapon_scavenge_item_spawn"
-"OnItemPickedUp" "@directorrunscriptcodeDirectorScript.MapScript.LocalScript.GasCanTouched()0-1"
+"OnItemPickedUp" "@boat_directorrunscriptcodeDirectorScript.MapScript.LocalScript.GasCanTouched()0-1"
 }
 
 

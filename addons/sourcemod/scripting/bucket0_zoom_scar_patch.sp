@@ -55,7 +55,7 @@ bool g_bAutoPulse[MAXPLAYERS + 1];
 public Plugin myinfo =
 {
     name        = "L4D2 Bucket 0 Zoom",
-    author      = "Workik",
+    author      = "Workik, RemiTheUnderappreciated",
     description = "Adds zoom and burst fire to bucket 0 rifles and SMGs, with desert rifle full auto",
     version     = PLUGIN_VERSION,
     url         = ""
